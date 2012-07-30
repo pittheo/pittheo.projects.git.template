@@ -1,0 +1,15 @@
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-07-29 21:18:19
+project --topLevelPackage pittheo.projects.template --projectName template --java 6
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-07-29 21:18:20
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-07-29 21:18:29
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-07-29 21:31:14
+persistence setup --database MYSQL --provider HIBERNATE
+entity --class ~.domain.UserAccount --testAutomatically
+field string --fieldName username --notNull --sizeMin 2
+field string --fieldName password --notNull --sizeMin 2
+field string --fieldName hash --notNull --sizeMin 2
+field string --fieldName priviledges --notNull
+finder add --finderName findUserAccountsByUsernameLike
+finder list --class ~.domain.UserAccount
+finder add --finderName findUserAccountsByUsernameEqualsAndPasswordEquals
+controller all --package ~.web

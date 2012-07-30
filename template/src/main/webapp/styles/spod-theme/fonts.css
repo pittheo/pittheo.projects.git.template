@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jockey One'), local('JockeyOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/jockeyone/v3/8Hj8G_JpSADPYrRpzMno2hsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Cuprum';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cuprum'), local('Cuprum-Regular'), url(http://themes.googleusercontent.com/static/fonts/cuprum/v3/sp1_LTSOMWWV0K5VTuZzvQ.woff) format('woff');
+}
+

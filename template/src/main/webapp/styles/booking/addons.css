@@ -1,0 +1,251 @@
+div.bookExtra {
+	margin: 5px 0 0 7px
+}
+
+div.bookExtra h3 {
+	font-size: 1.0em;
+	font-weight: bold;
+	text-align: left
+}
+
+div.bookExtra th {
+	text-align: left
+}
+
+table.extrOptions {
+	width: 535px;
+	font-size: small;
+	margin: 0;
+	padding: 3px 0 1px 5px
+}
+
+table#extrOptions td {
+	font-size: .82em;
+	padding: 0;
+	margin: 0
+}
+
+td.checkbox input {
+	width: 21px;
+	margin: 0;
+	padding-left: 5px
+}
+
+td.discr {
+	width: 100%
+}
+
+td.per {
+	white-space: nowrap
+}
+
+td.pricePp {
+	white-space: nowrap;
+	text-align: right
+}
+
+td.priceCur {
+	white-space: nowrap;
+	text-align: left
+}
+
+td.totPrice {
+	white-space: nowrap;
+	text-align: right
+}
+
+div#overview {
+	width: 600px;
+	padding: 0 0 0 5px;
+	background-color: #ecf1f7;
+	padding: 10px 0 0 0
+}
+
+div#overview hr {
+	border: #FFF solid 1px;
+	height: 1px;
+	margin: 10px 0
+}
+
+.roomOverview {
+	border-left: 3px solid #febd0e;
+	padding-left: 10px
+}
+
+.roomName {
+	border-bottom: #003580 solid 1px
+}
+
+.roomName h2 {
+	margin: 0;
+	padding: 5px 0 0 0
+}
+
+.roomName span {
+	font-weight: bold;
+	font-size: 1.2em
+}
+
+.guestName h2 {
+	padding: 0;
+	margin: 0
+}
+
+.extraOptionsOverview {
+	width: 100%;
+	font-size: small;
+	padding: 0;
+	margin: 0;
+	font-size: 1.0em
+}
+
+.overviewEven tr {
+	text-alogn: rigt;
+	background-color: #FFF;
+	padding: 5px
+}
+
+.extraOptionsItem {
+	font-weight: bold;
+	background: transparent url("//q.bstatic.com/static/img/icons/plus.png")
+		0 2px no-repeat;
+	padding-left: 15px
+}
+
+.totalCost {
+	padding-top: 5px;
+	text-align: right;
+	font-size: 1.1em
+}
+
+.totalCost span {
+	font-weight: bold;
+	border-top: blue solid 1px
+}
+
+.totRoomPrice p {
+	text-align: right;
+	font-size: 1.1em;
+	padding: 0;
+	margin: 0
+}
+
+.totRoomPrice span {
+	font-weight: bold
+}
+
+tr.roomtype td {
+	text-align: left;
+	border-bottom: white solid 1px
+}
+
+tr.roomtype h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 1.2em
+}
+
+.totalCostRoom {
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	border-top: #003580 solid 1px;
+	margin: 7px 0
+}
+
+.totalCostRoom h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em
+}
+
+div#totalCostRoom p {
+	margin-top: 20px;
+	font-size: 1.3em
+}
+
+div#totalCostRoom p span {
+	font-weight: bold
+}
+
+div.summeryAO {
+	margin: 0 0 10px 0
+}
+
+div.summeryAO ul {
+	margin: 0;
+	padding: 0 0 0 5px;
+	list-style-type: none
+}
+
+div.summeryAO li {
+	font-size: .9em;
+	padding: 0;
+	margin: 0
+}
+
+div.summeryAO h3 {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	font-weight: normal
+}
+
+div.summeryAO h4 {
+	padding: 0;
+	margin: 3px 0 0 0;
+	font-size: .9em
+}
+
+.addonConfirm {
+	background: transparent url("//q.bstatic.com/static/img/icons/plus.png")
+		0 7px no-repeat;
+	font-weight: bold
+}
+
+.selectedCur {
+	font-size: 10px;
+	white-space: nowrap
+}
+
+div.overviewPriceBlock {
+	padding: 3px 3px 3px 3px;
+	margin: 0;
+	width: 130px
+}
+
+div.overviewPriceBlock h4 {
+	font-weight: bold;
+	font-size: 13px;
+	padding: 0;
+	margin: 0
+}
+
+div.overviewPriceBlock p {
+	text-align: right;
+	font-weight: 13px;
+	padding: 0;
+	margin: 0
+}
+
+div.ovTotalCost {
+	padding: 5px 0 5px 5px;
+	width: 130px;
+	border-top: #003580 solid 1px;
+	margin-bottom: 15px;
+	background-color: #f7fafc
+}
+
+div.ovTotalCost h4 {
+	font-weight: bold;
+	font-size: 13px;
+	padding: 0;
+	margin: 0
+}
+
+div.ovTotalCost p {
+	text-align: right;
+	font-weight: 13px;
+	padding: 0;
+	margin-bottom: 15px
+}

@@ -1,0 +1,3525 @@
+.popup {
+	text-align: left
+}
+
+#bookTmpl h1 {
+	margin-bottom: 0
+}
+
+#bookTmpl p {
+	margin-top: 0
+}
+
+#bookTmpl p.error {
+	padding-left: 2.25em !important
+}
+
+#bookTmpl p.errorSimpleMsg,.mybooking p.errorSimpleMsg {
+	margin: 0;
+	padding: .6em 0 0;
+	font-weight: bold;
+	color: #b30000
+}
+
+#bookTmpl #bookStage1Inc p.errorSimpleMsg {
+	margin: 0 0 1.2em;
+	padding: 0
+}
+
+#bookTmpl span.exclamation {
+	margin-left: 0
+}
+
+#bookTmpl th {
+	padding-right: .6em
+}
+
+#cvcCodeHelp {
+	background-color: transparent;
+	border: 0
+}
+
+#cvcCodeHelpInner {
+	position: relative;
+	left: 17px;
+	top: -6em;
+	width: 21em;
+	padding: 3px;
+	border: 1px solid #feba02;
+	background-color: #fff9e7
+}
+
+#issueCodeHelpInner {
+	width: 500px
+}
+
+#b_bookConfirmationInc {
+	margin-top: 2.4em
+}
+
+#bookStage3Inc th {
+	height: 1.8em
+}
+
+.hideByJS {
+	margin-right: 12%;
+	border: 1px solid #feba02;
+	padding: 2px;
+	background-color: #fff9e7
+}
+
+.hideByJS br {
+	line-height: 0
+}
+
+form,table {
+	margin: 0
+}
+
+.err {
+	color: #b30000;
+	font-weight: bold
+}
+
+.warn {
+	color: blue;
+	font-weight: bold
+}
+
+input {
+	padding-left: .3em
+}
+
+span.hotelname {
+	font-size: 120%;
+	font-weight: bold
+}
+
+strong {
+	font-weight: bold
+}
+
+div.stage table {
+	background: #e6edf6;
+	border: solid 1px #779bca;
+	padding: 0 1px
+}
+
+div.stage td {
+	width: 11.75em;
+	padding: .3em 0;
+	text-align: center;
+	vertical-align: middle
+}
+
+div.stage td.on {
+	width: 11.6em;
+	color: #feba02;
+	font-weight: bold;
+	background: #fff;
+	border: .2em solid #feba02;
+	border-width: 0 .2em
+}
+
+div.overviewNew {
+	top: 0;
+	margin-top: 0;
+	padding-top: 0;
+	width: 11.5em;
+	border: 1px solid #779bca
+}
+
+div.overview {
+	position: absolute;
+	left: 35.5em;
+	margin-top: 0;
+	padding-top: 0;
+	width: 11.5em;
+	border: 1px solid #779bca;
+	margin-left: 10px
+}
+
+table#bookwrapper {
+	clear: left
+}
+
+table#bookwrapper td {
+	padding-right: 10px;
+	vertical-align: top
+}
+
+div.overview div.title,div.overviewNew div.title {
+	background: #779bca;
+	padding: .3em .6em;
+	text-align: left;
+	color: white;
+	font-weight: bold
+}
+
+div.overview div.content,div.overviewNew div.content {
+	padding: .3em .6em;
+	text-align: left
+}
+
+div.when {
+	border: 1px solid #779bca;
+	width: 55.9em;
+	padding-bottom: .6em;
+	margin-bottom: 3.6em
+}
+
+div.when div.title {
+	background: #779bca;
+	color: white;
+	font-weight: bold;
+	padding: .3em .6em;
+	border-bottom: 1px solid #779bca
+}
+
+div.when div.content {
+	padding: 1.2em 1.2em .3em 2.4em;
+	margin-bottom: 1.2em
+}
+
+div.when th {
+	text-align: left;
+	font-weight: bold
+}
+
+div.when td {
+	padding: 0 1.2em .6em 0
+}
+
+table.chooseroom {
+	background: #779bca;
+	margin-top: 0;
+	margin-bottom: 1.8em;
+	width: 56em;
+	border-spacing: 1px
+}
+
+table.chooseroom th {
+	background: #779bca;
+	padding: .3em .6em;
+	text-align: left;
+	vertical-align: top;
+	color: white;
+	font-weight: bold
+}
+
+table.chooseroom th.maxpers {
+	text-align: center
+}
+
+table.chooseroom th.ppd {
+	text-align: center
+}
+
+table.chooseroom th.dow {
+	font-size: 80%;
+	padding: .15em .3em;
+	text-align: center;
+	background: #e6edf6;
+	color: #003580
+}
+
+table.chooseroom td {
+	background: white;
+	padding: .3em .6em;
+	vertical-align: middle
+}
+
+table.chooseroom td.ppd {
+	background: #fff0c4;
+	font-size: 88%;
+	text-align: center;
+	vertical-align: middle;
+	padding: .3em .3em;
+	white-space: nowrap
+}
+
+table.chooseroom td.pps {
+	color: #390 !important;
+	text-align: right
+}
+
+table.chooseroom td.maxpers {
+	text-align: center
+}
+
+div.chooseroomrates {
+	padding: .3em;
+	border: 1px solid #feba02;
+	background-color: #fff0c4
+}
+
+div.chooseroomsubmit {
+	text-align: right;
+	width: 56em;
+	margin-bottom: 1.8em
+}
+
+div.yourdetails input,div.yourdetails select#ccYear {
+	margin-right: .6em
+}
+
+div.yourdetails span.help_text {
+	font-style: italic !important;
+	font-weight: normal !important
+}
+
+div.yourdetails span.optional_full_guest {
+	padding-right: 0
+}
+
+div.yourdetails th span.optional {
+	font-weight: normal;
+	color: #779bca
+}
+
+div.yourdetails {
+	border: 1px solid #779bca;
+	width: 34.8em;
+	margin-bottom: .6em
+}
+
+div.yourdetails p.warn {
+	vertical-align: middle
+}
+
+div.yourdetails div.title {
+	background: #779bca;
+	padding: .3em .6em;
+	color: white;
+	font-weight: bold
+}
+
+div.yourdetails div.content {
+	padding: .3em .6em 0;
+	background: #e6edf6
+}
+
+div.yourdetails div.name {
+	padding: .3em 0;
+	background: #e6edf6
+}
+
+div.yourdetails table {
+	margin-left: 0
+}
+
+div.yourdetails th {
+	text-align: left;
+	vertical-align: bottom;
+	padding-top: .15em;
+	font-weight: bold
+}
+
+div.yourdetails div.guests {
+	margin-top: .6em
+}
+
+div.yourdetails div.smoking {
+	padding: .3em;
+	border: 1px solid #feba02;
+	background-color: #fff0c4;
+	width: 200px
+}
+
+div.yourdetails div.cc {
+	border-top: 1px solid #779bca;
+	margin-top: 1.2em;
+	padding: .3em 0
+}
+
+div.yourdetails div.ccwhy {
+	border-bottom: 1px solid #779bca;
+	margin-bottom: .3em;
+	font-style: italic;
+	padding-bottom: .3em
+}
+
+div.yourdetails span.faq {
+	padding-left: 0
+}
+
+div.yourdetails td.cc_fax {
+	text-align: right;
+	padding-left: 1.8em;
+	padding-right: 0
+}
+
+div.yourdetails div.email {
+	margin-top: 0;
+	padding-left: 0
+}
+
+div.yourdetails div.emailtitle {
+	margin-top: .3em;
+	font-weight: bold
+}
+
+div.yourdetails div.cvc {
+	padding: .3em;
+	border: 1px solid #feba02;
+	background-color: #fff0c4;
+	width: 200px
+}
+
+div.yourdetails p.cvctitle {
+	background: #c5d4e9;
+	padding: 2px;
+	margin: 0
+}
+
+p.tttitle {
+	display: block;
+	width: 200px !important;
+	border: 5px solid red !important
+}
+
+div.yourdetails div.submit {
+	text-align: right;
+	background: #e6edf6;
+	padding-bottom: .3em
+}
+
+div.yourdetailsnote {
+	margin-bottom: 1.2em
+}
+
+div.contact {
+	border: 1px solid #779bca;
+	width: 34.8em;
+	margin-bottom: 1.2em
+}
+
+div.contact input {
+	margin-right: .6em
+}
+
+div.flash_deal_tick {
+	background-color: #fe3311;
+	border: 6px solid #fe3311;
+	color: #fff;
+	margin: 5px;
+	padding: 6px 10px 4px 10px;
+	overflow: hidden;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	zoom: 1
+}
+
+label.flash_deal_tick_label {
+	display: block;
+	font-weight: bold;
+	margin: -14px 0 0 31px
+}
+
+div.contact div.title {
+	background: #779bca;
+	padding: .3em .6em;
+	color: white;
+	font-weight: bold
+}
+
+div.contact div.content {
+	padding: .3em .6em 1.2em;
+	background: #e6edf6
+}
+
+div.contact span.optional {
+	font-weight: normal;
+	color: #779bca
+}
+
+div.contact span.help_text {
+	font-style: italic
+}
+
+div.contact span.optional_remarks {
+	float: left;
+	margin-top: 1.2em
+}
+
+div.contact h4.remarks_txt {
+	float: left;
+	margin-right: 4px
+}
+
+div.contact th {
+	vertical-align: middle;
+	text-align: left
+}
+
+div.contact td {
+	vertical-align: middle !important
+}
+
+div.contact textarea {
+	width: 350px;
+	margin-bottom: .6em
+}
+
+div.confirmsubmit {
+	text-align: right;
+	background: #e6edf6;
+	padding-bottom: .3em
+}
+
+div.verywide {
+	width: 55.8em
+}
+
+div.thankyou {
+	border: 1px solid #779bca;
+	width: 34.8em;
+	width: 47em
+}
+
+div.thankyou h2 {
+	background: #779bca;
+	padding: .3em .6em;
+	margin: 0;
+	color: #FFF;
+	font-size: 1em;
+	font-weight: bold
+}
+
+div.thankyou div.content {
+	padding: .3em .6em 1.2em
+}
+
+.thankyou h3 {
+	margin: 0;
+	padding-top: 1em
+}
+
+.thankyou .b_confirmationDetails {
+	border: 1px solid #779bca;
+	border-width: 1px 0;
+	margin-top: .6em;
+	padding: .3em .6em;
+	background-color: #e6edf6
+}
+
+.thankyou .b_confirmationDetails table {
+	width: 100%
+}
+
+.thankyou .b_confirmationDetails th,.thankyou .b_confirmationDetails td
+	{
+	padding: .3em .6em .3em 0
+}
+
+.thankyou .b_confirmationDetails td {
+	width: 75%
+}
+
+#b_confirmationMetaDetails td {
+	width: 50%
+}
+
+.thankyou .b_confirmationDetails p {
+	margin: .6em 0;
+	clear: left
+}
+
+.thankyou .b_confirmationDetails h4 {
+	font-size: 100%
+}
+
+.thankyou .b_confirmationDetails .bookingPolicies h4 {
+	margin-top: 0
+}
+
+.thankyou .b_confirmationDetails p+h4 {
+	margin-top: 1.2em
+}
+
+.thankyou .b_confirmationDetails h5 {
+	margin: 0
+}
+
+.thankyou .b_confirmationDetails h6 {
+	font-style: italic;
+	margin: .6em 0 0
+}
+
+.thankyou .b_confirmationDetails table p {
+	margin: 0;
+	font-weight: inherit
+}
+
+.thankyou .b_confirmationDetails ul {
+	margin: 0 .6em .6em 1.8em;
+	padding: 0 0 0 .6em
+}
+
+.thankyou .b_extraInfo {
+	padding: .6em 1.2em 0
+}
+
+.thankyou .b_extraInfo h2 {
+	margin: 0 -1.8em
+}
+
+.thankyou .b_extraInfo p {
+	clear: left;
+	font-style: italic
+}
+
+.thankyou .b_extraInfo img {
+	float: left;
+	margin-right: 1em
+}
+
+.thankyou .remark {
+	font-style: italic
+}
+
+.thankyou #b_travelInfo {
+	display: none
+}
+
+.thankyou .roomtypes th,.thankyou .roomtypes td {
+	border-top: 1px dashed #779bca;
+	border-top: 1px solid #FFF;
+	padding-bottom: .6em
+}
+
+.thankyou .roomDetails {
+	margin-bottom: .6em
+}
+
+.thankyou .roomDetails th,.thankyou .roomDetails td,.thankyou .quantityDetails th,.thankyou .quantityDetails td
+	{
+	border: 0;
+	padding: 0 .6em 0 0
+}
+
+.thankyou .quantityDetails th {
+	font-weight: bold
+}
+
+.thankyou .quantityDetails td {
+	width: auto
+}
+
+.thankyou .roomDetails td {
+	width: 73%
+}
+
+.thankyou .roomDetails .multiplePeriods th,.thankyou .roomDetails .multiplePeriods td
+	{
+	color: #b30000
+}
+
+.thankyou .b_confirmationDetails .b_pricePerDay {
+	float: left;
+	width: auto;
+	margin: .6em 0;
+	padding: .15em 0;
+	border-top: 1px solid #779bca;
+	background-color: #f2f6fa
+}
+
+.thankyou .ppdLast {
+	border-bottom: 1px solid #779bca
+}
+
+.thankyou .b_pricePerDay th,.thankyou .b_pricePerDay td {
+	border: 0;
+	font-size: 88%;
+	padding: 0 .3em
+}
+
+.thankyou .b_confirmationDetails .b_pricePerDay th {
+	border-right: 1px dotted #779bca
+}
+
+.thankyou .b_confirmationDetails .b_pricePerDay td {
+	text-align: center;
+	width: auto
+}
+
+.thankyou .b_confirmationDetails .bookingPolicies {
+	padding: .6em .6em 0;
+	margin: .6em 0;
+	background-color: #f2f6fa;
+	border: 1px solid #779bca
+}
+
+div.thankyou p.contact {
+	margin-left: 2.5em
+}
+
+div.confirmation {
+	border: 1px solid #779bca;
+	width: 34.8em;
+	padding: .5em 1em .5em 1em;
+	background: white
+}
+
+div.confirmation span.bookingnumber {
+	padding: .3em .6em .3em .6em;
+	background: #fff0c4;
+	border: 1px solid #003580
+}
+
+div.confirmation p.hotel {
+	margin-top: 2em;
+	margin-left: 6em;
+	font-weight: bold
+}
+
+div.confirmation table {
+	margin-top: 1em
+}
+
+div.confirmation div.details {
+	width: 100%;
+	height: 8em;
+	padding-left: 6em
+}
+
+div.confirmation table.arrdep {
+	float: left;
+	border: 1px solid #779bca
+}
+
+div.confirmation th {
+	text-align: left;
+	font-weight: bold;
+	padding: .3em .6em .3em .6em
+}
+
+div.confirmation td {
+	padding: .1em .6em .1em .6em
+}
+
+div.confirmation div.nrp {
+	float: left;
+	border: 1px solid #779bca;
+	padding: .3em .6em .3em .6em;
+	margin-top: 1em;
+	margin-left: 1em
+}
+
+div.confirmation span.remark {
+	color: red
+}
+
+div.msg {
+	width: 47em
+}
+
+div.msg li.err {
+	list-style-image: url("//q.bstatic.com/static/img/book/error-small.gif");
+	list-style-type: disc
+}
+
+div.msg li.warn {
+	list-style-image:
+		url("//q.bstatic.com/static/img/book/warning-small.gif");
+	list-style-type: disc
+}
+
+div.roominfo {
+	margin: .6em
+}
+
+div.roominfo h2 {
+	margin-left: 0
+}
+
+div.roominfo p.close {
+	text-align: right
+}
+
+div.faq {
+	margin: 2.4em
+}
+
+div.faq span.faq {
+	font-weight: normal;
+	font-size: 120%;
+	padding-right: 1.2em
+}
+
+div.faq div.q {
+	font-weight: bold;
+	text-indent: -3em;
+	padding-left: 3em
+}
+
+div.faq div.a {
+	text-indent: -3em;
+	padding-left: 3em;
+	margin-bottom: 1.2em
+}
+
+div.faq p {
+	text-align: center;
+	margin: 2.4em 0 0 2.4em
+}
+
+div.cancellations {
+	margin: 0 2.4em 0 2.4em
+}
+
+div.cancellations p.close {
+	text-align: center
+}
+
+div.cancellations h2,h3,h4 {
+	margin-left: 0
+}
+
+div.cancellations ul {
+	margin-top: 8px;
+	margin-bottom: 16px
+}
+
+div.cancellations li {
+	margin-bottom: 4px
+}
+
+div.cancellations h3 {
+	font-size: 108%;
+	margin-bottom: 8px
+}
+
+div.bookingnumber {
+	margin: 2em 2em 1em;
+	padding: .5em;
+	background: #fff0c4;
+	border: 1px solid #003580
+}
+
+.hasJS div#dc_issue_error,.hasJS div#dc_issue_label,.hasJS div#dc_issue_field,.hasJS div#dc_yyyymm_label,.hasJS div#dc_yyyymm_field
+	{
+	display: none
+}
+
+input.disabled {
+	color: grey
+}
+
+input.grey {
+	color: #808080
+}
+
+td.prices,th.prices {
+	border-top: 1px solid white
+}
+
+td.full-price,th.full-price {
+	border-color: #779bca
+}
+
+td.theprice strong {
+	width: 7em
+}
+
+td.curr,td.theprice {
+	text-align: right
+}
+
+.thankyou .b_confirmationDetails td.download-buttons {
+	width: 92px !important;
+	text-align: center
+}
+
+.download-buttons a {
+	display: block;
+	margin-top: 10px
+}
+
+span.label {
+	padding-right: 17px
+}
+
+span.cvc_code {
+	font-weight: bold
+}
+
+span.cvc_code_padding {
+	padding-right: 2px
+}
+
+span.val-no,label.val-no {
+	background: url("//q.bstatic.com/static/img/icon_cancel.png") no-repeat
+		100%;
+	padding: 3px 17px 0 0
+}
+
+span.val-yes,label.val-yes {
+	background: url("//r.bstatic.com/static/img/icon_addons-tick.png")
+		no-repeat 100%;
+	padding: 3px 17px 0 0
+}
+
+#bookStage3Inc.expBS3CC .pp_info,#bookStage2Inc .pp_info {
+	border-top-width: 0
+}
+
+#bookStage3Inc.expBS3CC .pp_info .ccwhy,#bookStage2Inc .pp_info .ccwhy {
+	width: 90%;
+	border-bottom-width: 0;
+	background:
+		url("//q.bstatic.com/static/img/experiments/info_green_bg.gif")
+		no-repeat 7px 4px #390;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 4px 5px 5px 28px;
+	color: #fff;
+	font-style: normal;
+	font-size: 90%;
+	line-height: 1.7em;
+	margin-bottom: 10px
+}
+
+#bookStage3Inc.expBS3CC .pp_info .ccwhy a,#bookStage3Inc.expBS3CC .pp_info .ccwhy a:hover,#bookStage3Inc.expBS3CC .pp_info.ccwhy a:visited,#bookStage2Inc .pp_info .ccwhy a,#bookStage2Inc .pp_info .ccwhy a:hover,#bookStage2Inc .pp_info.ccwhy a:visited
+	{
+	color: #fff
+}
+
+#bookStage3Inc .pp_info div.wrapper_cc {
+	background-color: pink;
+	border: 1px solid red;
+	padding: 10px 10px 10px 20px;
+	width: 90%;
+	zoom: 1
+}
+
+#bookStage2Inc .pp_info div.wrapper_cc {
+	background-color: pink;
+	border: 1px solid red;
+	padding: 10px 10px 10px 20px;
+	width: 90%;
+	zoom: 1
+}
+
+#bookStage3Inc.expBS3CC .pp_info {
+	margin-top: 2em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid white
+}
+
+#bookStage3Inc.expBS3CC th {
+	font-weight: bold
+}
+
+.show_for_print {
+	display: none
+}
+
+#new_book_button {
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #0896ff;
+	border: 3px solid white;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: bold;
+	overflow: visible;
+	padding: .15em .5em;
+	margin-bottom: 5px
+}
+
+#new_book_button:hover {
+	background-color: #003580;
+	cursor: pointer
+}
+
+.PolicyChanges {
+	margin: 20px 30px 20px 0
+}
+
+li.PolicyName {
+	background-color: transparent !important;
+	margin: 0 0 3px 0 !important;
+	padding: 3px 0 3px 3px !important;
+	text-indent: 0 !important;
+	color: #006000 !important;
+	font-weight: bold
+}
+
+.PolicyChanges ul {
+	margin-top: 0 !important
+}
+
+.PolicyChanges ul li {
+	background-color: #fff;
+	margin: 0 0 2px 0;
+	padding: 5px 7px
+}
+
+.PolicyChanges ul li.New {
+	margin-bottom: 8px
+}
+
+.PolicyChanges ul li.Old strong {
+	color: red
+}
+
+.PolicyChanges ul li.New strong {
+	color: green
+}
+
+.PolicyChanges ul li.Old {
+	border-left: 5px solid red;
+	font-size: .9em
+}
+
+.PolicyChanges ul li.New {
+	border-left: 5px solid green;
+	font-size: .9em
+}
+
+#bookStage3Inc a.bs3_error_link {
+	color: #0896ff;
+	display: block;
+	margin-bottom: .5em
+}
+
+#bookStage3Inc a.bs3_error_link:hover {
+	color: #feba02
+}
+
+#mybookingTmpl {
+	float: none;
+	clear: both;
+	width: 100%
+}
+
+#mybookingTmpl #fullwidth {
+	float: none;
+	margin: 2% 1%;
+	width: 98%
+}
+
+#mybookingTmpl #fullwidth .overview {
+	float: left;
+	position: static
+}
+
+#mybookingTmpl #fullwidth .mybooking {
+	position: static;
+	float: left
+}
+
+#mybookingTmpl #fullwidth #self_cancel.mybooking {
+	float: none !important
+}
+
+#mybookingTmpl #fullwidth #self_change1 {
+	float: none !important
+}
+
+div.mybooking {
+	border: 1px solid #779bca;
+	width: 35em;
+	margin-top: 0;
+	margin-bottom: 3.6em
+}
+
+div.mybooking div.title {
+	background: #779bca;
+	padding: .3em .6em;
+	color: white;
+	font-weight: bold
+}
+
+div.mybooking div.content {
+	padding: .3em .6em 1.2em 2em;
+	min-height: 29em;
+	height: auto !important;
+	height: 26em
+}
+
+div.mybooking div.message {
+	padding-top: 2em;
+	font-weight: bold
+}
+
+div.mybooking h2 {
+	margin-left: 0
+}
+
+div.mybooking table {
+	background: #779bca;
+	border-spacing: 1px;
+	margin-top: .5em
+}
+
+div.mybooking td,div.mybooking th {
+	padding: .2em .6em .2em .6em;
+	font-size: 9pt
+}
+
+div.mybooking th {
+	color: white;
+	background: #779bca;
+	font-weight: bold
+}
+
+div.mybooking th.selected {
+	background: #99befc
+}
+
+div.mybooking td {
+	background: white
+}
+
+div.mybooking td.clx {
+	text-decoration: line-through
+}
+
+div.mybooking td.submit {
+	background-color: #fff9e7;
+	text-align: center;
+	padding-top: .2em;
+	padding-bottom: .2em
+}
+
+div.mybooking table.hor th {
+	text-align: right
+}
+
+div.mybooking table.change td,div.mybooking table.change td.cxl {
+	padding-top: .5em;
+	padding-bottom: .5em
+}
+
+div.mybooking strong {
+	color: darkorange;
+	font-weight: bold
+}
+
+div.mybooking a.button {
+	border: 1px solid #779bca;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	white-space: nowrap;
+	background-color: #ebf0f7;
+	font-size: 12px;
+	color: #003580;
+	padding: .2em .5em;
+	text-decoration: none
+}
+
+div.mybooking a.button:hover {
+	background-color: #DDE
+}
+
+div.mybooking td.diff {
+	background-color: #ffb6c1
+}
+
+div.mybooking div.content p {
+	margin-top: 0
+}
+
+div.mybooking div.content ul {
+	padding: 0;
+	list-style-type: none;
+	margin: 0 !important;
+	clear: both
+}
+
+div.mybooking div.content ul li a {
+	display: block;
+	padding-left: 22px;
+	text-decoration: none !important
+}
+
+div.mybooking div.content ul li a strong {
+	text-decoration: underline !important
+}
+
+div.mybooking div.content ul li a:link strong {
+	color: #0896ff !important
+}
+
+div.mybooking div.content ul li a:visited strong {
+	color: #537cb4 !important
+}
+
+div.mybooking div.content ul li a:hover strong {
+	color: #003580 !important
+}
+
+div.mybooking div.content ul li a span {
+	display: block;
+	clear: both;
+	width: 90%;
+	font-size: 8pt;
+	color: #444;
+	text-decoration: none !important;
+	font-weight: normal;
+	line-height: 1.3em
+}
+
+div.mybooking div.content ul li a span em {
+	color: #333;
+	font-style: normal;
+	font-weight: bold
+}
+
+div.mybooking div.content ul li a:hover span,div.mybooking div.content ul li a:hover span em
+	{
+	color: black
+}
+
+div.mybooking div.content ul li a span strong {
+	text-decoration: none !important
+}
+
+div.mybooking div.content ul ul {
+	padding: 0 0 .2em 2em;
+	list-style-type: square;
+	font-size: 8.5pt
+}
+
+div.mybooking div.content ul ul li {
+	font-size: 9pt
+}
+
+div.mybooking div.content ul ul a {
+	padding-left: 0;
+	display: inline
+}
+
+div.mybooking div.content ul#change {
+	width: 100%;
+	float: left
+}
+
+div.mybooking div.content ul#change li {
+	line-height: 1.5em;
+	width: 49.5%;
+	float: left;
+	display: block;
+	padding-bottom: 1em !important;
+	font-size: 12pt;
+	margin: 0 !important
+}
+
+div.mybooking div.content ul#change.en li {
+	font-size: 13pt
+}
+
+div.mybooking div.content ul#other {
+	width: 100%;
+	clear: both;
+	float: left;
+	padding-top: .7em;
+	border-top: 1px dotted #aaa
+}
+
+div.mybooking div.content ul#other li {
+	line-height: 1.5em;
+	width: 49.5%;
+	float: left;
+	padding-bottom: 1em !important
+}
+
+a#myBooking_modify {
+	background: url("//s.bstatic.com/static/img/icon_modify.png") left 4px
+		no-repeat
+}
+
+a#myBooking_ccinfo {
+	background: url("//q.bstatic.com/static/img/icon_cc.png") left 4px
+		no-repeat
+}
+
+a#myBooking_conf,a#myBookingConfEN {
+	background: url("//r.bstatic.com/static/img/icon_confirmation.png") left
+		4px no-repeat
+}
+
+a#myBooking_hotel {
+	background: url("//q.bstatic.com/static/img/icon_myhotel.png") left 1px
+		no-repeat
+}
+
+a#myBooking_directions {
+	background: url("//r.bstatic.com/static/img/icon_map.png") left 1px
+		no-repeat
+}
+
+a#myBooking_ical {
+	background: url("//s.bstatic.com/static/img/icon_ical.png") left 1px
+		no-repeat
+}
+
+a#myBooking_tomtom {
+	background: url("//q.bstatic.com/static/img/icon_tomtom.png") left 1px
+		no-repeat
+}
+
+a#myBooking_gcal {
+	background: url("//r.bstatic.com/static/img/icon_gcal.png") left 1px
+		no-repeat
+}
+
+a#myBooking_profilelink {
+	background: url("//q.bstatic.com/static/img/icon_profile.png") left 1px
+		no-repeat
+}
+
+a#myBooking_logout {
+	background: url("//q.bstatic.com/static/img/icon_logoutkey.png") left
+		1px no-repeat
+}
+
+div.breadcrumb span.resID {
+	display: inline
+}
+
+div.mybooking div.messageBox#changeAkw {
+	padding: 1em 1.2em 1em 0;
+	width: 26em;
+	cursor: pointer;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: #cce6cc;
+	border: 1px solid #008000;
+	margin: 1em auto
+}
+
+div.mybooking div.messageBox#changeAkw h4 {
+	margin: 0 !important;
+	padding: 0 0 0 3em;
+	background: url("//q.bstatic.com/static/img/icon_tick.png") 1em 0
+		no-repeat;
+	color: #008000
+}
+
+div.mybooking#self_change1 div.messageBox {
+	padding: 1em 1em 1em 0;
+	margin: 1em 0;
+	width: 26em;
+	cursor: pointer;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: #ebf0f7;
+	border: 1px solid #779bca;
+	float: left
+}
+
+div.mybooking#self_change1 div.messageBox h4 {
+	display: block;
+	padding: 0 0 0 2.7em;
+	margin: 0;
+	line-height: 1.6em;
+	font-size: 13px
+}
+
+div.mybooking#self_change1 div.messageBox p {
+	padding: 0 1em 0 2.7em;
+	margin: .3em 0 0 0
+}
+
+div.mybooking#self_change1 div.messageBox a {
+	display: none
+}
+
+div.mybooking#self_change1 #cancellation-fee p {
+	background: url("//r.bstatic.com/static/img/icon_fwd.png") 25em bottom
+		no-repeat;
+	color: #c00
+}
+
+div.mybooking#self_change1 #cancellation-free p {
+	background: url("//q.bstatic.com/static/img/icon_fwd-free.png") 25em
+		bottom no-repeat;
+	color: #008000
+}
+
+div.mybooking#self_change1 div.messageBox:hover {
+	background: #dde
+}
+
+div.mybooking#self_change1 #cancellation-fee h4 {
+	background: url("//q.bstatic.com/static/img/icon_cancel.png") 1em 2px
+		no-repeat;
+	color: #c00
+}
+
+div.mybooking#self_change1 #cancellation-free h4 {
+	background: url("//q.bstatic.com/static/img/icon_tick.png") 1em 2px
+		no-repeat;
+	color: #006000
+}
+
+div.mybooking#self_change1 #change-request {
+	clear: both;
+	background: 0
+}
+
+div.mybooking#self_change1 #change-request h4 span {
+	display: block;
+	padding-right: 1em;
+	background: url("//q.bstatic.com/static/img/icon_fwd-change.png") right
+		bottom no-repeat
+}
+
+div.mybooking#self_change1 #change-dates p {
+	clear: both;
+	background-image: url("//q.bstatic.com/static/img/icon_fwd-change.png");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	clear: both
+}
+
+div.mybooking#self_change1 #change-request h4,div.mybooking#self_change1 #change-dates h4
+	{
+	background-image: url("//s.bstatic.com/static/img/icon_modify.png")
+}
+
+div.mybooking#self_change1 #change-request {
+	margin-top: 0 !important
+}
+
+div.mybooking #change_dates #datepicker {
+	width: 100%;
+	clear: both;
+	float: left;
+	margin-bottom: 1em
+}
+
+div.mybooking #change_dates .trip_day {
+	width: 100%
+}
+
+div.content #entire-cancel #cancellation-policy h4 {
+	position: relative;
+	background: white url("//r.bstatic.com/static/img/dot.png") repeat-x
+		scroll left 11px
+}
+
+div.content #entire-cancel #cancellation-policy li.total h4 {
+	position: relative;
+	background-position: left 25px;
+	border-top: 1px solid #444;
+	padding-top: 1em
+}
+
+div.content #entire-cancel #cancellation-policy p {
+	color: #444;
+	margin-top: .5em
+}
+
+div.content #entire-cancel #cancellation-policy h4 span {
+	background: white;
+	padding: 0 .3em 0 0
+}
+
+div.content #entire-cancel #cancellation-policy li.total h4 span {
+	font-size: 130%
+}
+
+div.content #entire-cancel #cancellation-policy h4 span.canc-fee {
+	position: absolute;
+	right: 0;
+	padding: 0 0 0 .3em
+}
+
+div.content #entire-cancel #cancellation-policy li .canc-fee {
+	color: #008000
+}
+
+div.content #entire-cancel #cancellation-policy li.fee .canc-fee {
+	color: #a00
+}
+
+div.content #entire-cancel #cancellation-policy li.icon h4 span.name {
+	background: white url("//s.bstatic.com/static/img/icon_error.png")
+		no-repeat left center;
+	padding-left: 19px
+}
+
+div.content #entire-cancel #cancellation-policy ul {
+	padding: 0 1em
+}
+
+div.content #entire-cancel #b_mybooking_cancel_entire_booking ul {
+	padding: 0 1em;
+	margin-top: .5em
+}
+
+div.content #entire-cancel #b_mybooking_cancel_entire_booking ul li.selected
+	{
+	color: red
+}
+
+div.content #entire-cancel #cancellation-policy ul li {
+	list-style-type: none
+}
+
+div.content #entire-cancel #b_mybooking_cancel_entire_booking ul li {
+	display: block;
+	float: left;
+	width: 100%
+}
+
+div.content #entire-cancel #b_mybooking_cancel_entire_booking ul li input
+	{
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin-bottom: .5em;
+	line-height: 1.5em
+}
+
+div.content #entire-cancel #b_mybooking_cancel_entire_booking ul li label
+	{
+	padding-left: 10px;
+	width: 374px;
+	height: 16px;
+	line-height: 16px;
+	display: block;
+	float: left;
+	margin-bottom: .5em;
+	line-height: 1.5em
+}
+
+div.content #entire-cancel #b_mybooking_cancel_entire_booking .reason textarea
+	{
+	display: block;
+	margin-top: 1em;
+	width: 100%;
+	padding: 0;
+	overflow: auto;
+	float: left;
+	clear: both
+}
+
+div.content #entire-cancel #b_mybooking_cancel_entire_booking ul li .searchbox
+	{
+	background: #feba02
+}
+
+div.content #b_mybooking_cancel_entire_booking ul li h4 {
+	margin: 0 !important
+}
+
+div.content #entire-cancel #cancellation-policy ul ul {
+	padding: .5em 0 0 1em
+}
+
+div.content #entire-cancel #cancellation-policy ul ul li {
+	list-style-type: disc;
+	font-size: 8.5pt;
+	color: #444
+}
+
+div.content #entire-cancel #no-turning-back {
+	padding: .5em;
+	border: 1px solid #ddd;
+	background: #eee;
+	margin-bottom: 1em
+}
+
+div.content #entire-cancel div.messageBox {
+	width: 94%;
+	padding: 3%;
+	margin-bottom: 1em;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: #ebf0f7;
+	border: 1px solid #779bca
+}
+
+div.content #entire-cancel div.messageBox h4 {
+	margin-top: 0;
+	padding-left: 2em;
+	font-size: 13px
+}
+
+div.content #entire-cancel #cancellation-fee h4 {
+	color: #C00;
+	background-image: url("//q.bstatic.com/static/img/icon_cancel.png")
+}
+
+div.content #entire-cancel #cancellation-free h4 {
+	color: #006000;
+	background-image: url("//q.bstatic.com/static/img/icon_tick.png")
+}
+
+div.cc_error {
+	margin-top: 1em
+}
+
+div.cc_error+h4 {
+	margin-top: 0
+}
+
+div.cc_error span.exclamation {
+	margin-left: 0 !important
+}
+
+div.cc_error p.error {
+	padding-left: 2em !important
+}
+
+h2.error {
+	color: #a00
+}
+
+h2.error span.exclamation {
+	line-height: 2em;
+	position: static;
+	margin: 0 .2em 0 0
+}
+
+div.mybooking div.content ul#other li {
+	line-height: 1.5em;
+	margin: 0 !important;
+	float: left;
+	margin-bottom: 1em
+}
+
+div.mybooking div.messageBox {
+	padding: 1em 1em 1em 0;
+	margin: 1em 0;
+	width: 26em;
+	cursor: pointer;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: #ebf0f7;
+	border: 1px solid #779bca;
+	float: left
+}
+
+div.mybooking div.messageBox h4 {
+	display: block;
+	padding: 0 0 0 2.7em;
+	margin: 0;
+	line-height: 1.6em;
+	font-size: 13px
+}
+
+div.mybooking div.messageBox p {
+	padding: 0 1em 0 2.7em;
+	margin: .3em 0 0 0
+}
+
+div.mybooking div.messageBox a {
+	display: none
+}
+
+div.mybooking div.messageBox#change-dates {
+	margin-right: 1em !important
+}
+
+div.mybooking #cancellation-fee p {
+	background: url("//r.bstatic.com/static/img/icon_fwd.png") right bottom
+		no-repeat;
+	color: #c00
+}
+
+div.mybooking #cancellation-free p {
+	background: url("//q.bstatic.com/static/img/icon_fwd-free.png") right
+		bottom no-repeat;
+	color: #008000
+}
+
+div.mybooking div.messageBox:hover {
+	background: #dde
+}
+
+div.mybooking #cancellation-fee h4 {
+	background: url("//q.bstatic.com/static/img/icon_cancel.png") left 2px
+		no-repeat;
+	color: #c00
+}
+
+div.mybooking #cancellation-free h4 {
+	background: url("//q.bstatic.com/static/img/icon_tick.png") left 2px
+		no-repeat;
+	color: #006000
+}
+
+div.mybooking #change-request,div.mybooking #change-dates p {
+	clear: both;
+	background-image: url("//q.bstatic.com/static/img/icon_fwd-change.png");
+	background-position: 25em center;
+	background-repeat: no-repeat
+}
+
+div.mybooking #change-request h4,div.mybooking #change-dates h4 {
+	background: url("//s.bstatic.com/static/img/icon_modify.png") 1em 2px
+		no-repeat
+}
+
+div.mybooking #change-request {
+	margin-top: 0 !important
+}
+
+div.mybooking .feedbackBox {
+	float: none !important;
+	padding: 1em 1em 1em 0;
+	margin: 1em auto !important;
+	width: 27em;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: #cce6cc !important;
+	color: #008000;
+	border: 1px solid #008000 !important
+}
+
+div.mybooking .datesUnavailable {
+	background: #fff !important;
+	border: 1px solid #c00c00 !important;
+	padding: 0 0 1em 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-top: 30px
+}
+
+div.mybooking .feedbackBox h4,div.mybooking .datesUnavailable h4 {
+	display: block;
+	padding: 0 0 0 2.7em;
+	background: url("//s.bstatic.com/static/img/icon_error.png") .7em top
+		no-repeat;
+	margin: 0;
+	line-height: 1.4em;
+	font-size: 13px;
+	color: #006000
+}
+
+div.mybooking .datesUnavailable h4 {
+	color: red !important;
+	padding: 1em 1em 1em 2.7em;
+	background: pink url("//s.bstatic.com/static/img/icon_error.png") .7em
+		1em no-repeat !important;
+	margin-bottom: 1em;
+	min-height: 34px
+}
+
+div.mybooking .datesUnavailable a:link,div.mybooking .datesUnavailable a:visited
+	{
+	display: block;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background-color: #e6edf6;
+	padding: 6px 10px;
+	margin: 0 15px;
+	color: #003580;
+	font-weight: bold;
+	text-decoration: none
+}
+
+div.mybooking .datesUnavailable a:hover {
+	background-color: #003580 !important;
+	color: #feba02;
+	text-decoration: none
+}
+
+div.mybooking .datesUnavailable a span {
+	color: #090;
+	margin-right: 5px;
+	font-weight: bold;
+	font-family: "Arial Unicode MS", Helvetica, sans-serif
+}
+
+div.mybooking .datesUnavailable a:hover span {
+	color: #fff
+}
+
+div.mybooking .feedbackBox p {
+	line-height: 1.4em
+}
+
+div.mybooking .feedbackBox h4+p {
+	margin-top: .3em
+}
+
+div.mybooking .feedbackBox h5 {
+	display: block;
+	padding: 0 0 0 2.7em;
+	margin: 0;
+	height: 1.5em;
+	line-height: 1.6em;
+	font-size: 13px;
+	color: #006000
+}
+
+div.mybooking .datesUnavailable h5 {
+	color: #555 !important;
+	font-style: italic;
+	font-weight: normal;
+	margin: 1.5em 0 .4em !important;
+	padding: 0 0 0 1.5em !important
+}
+
+div.mybooking .feedbackBox h4+h5 {
+	margin-top: .5em
+}
+
+div.mybooking .feedbackBox table {
+	margin: 1em auto 0;
+	background: #cce6cc;
+	border-spacing: 0;
+	color: #006000
+}
+
+div.mybooking .feedbackBox table+h5 {
+	margin-top: .5em
+}
+
+div.mybooking .feedbackBox table th,div.mybooking .feedbackBox table td
+	{
+	background: #e7f3e7;
+	margin: 0 0 1px 1px;
+	border-bottom: 1px solid #8aa489;
+	border-left: 1px solid #8aa489;
+	color: #006000
+}
+
+div.mybooking .feedbackBox table thead td {
+	border: 0;
+	background: #cce6cc
+}
+
+div.mybooking div.content div.feedbackBox ul {
+	margin: .5em 0 0 2.7em !important
+}
+
+div.mybooking div.content div.feedbackBox ul li div {
+	width: 100%;
+	position: relative;
+	color: #006000
+}
+
+div.mybooking div.content div.feedbackBox ul li.total {
+	padding-top: .5em
+}
+
+div.mybooking div.content div.feedbackBox ul li.total div {
+	border-top: 1px solid #8aa489;
+	padding-top: .2em;
+	background-position: left 1.1em
+}
+
+div.mybooking div.content div.feedbackBox ul li span.name {
+	background: #cce6cc;
+	padding-right: .3em
+}
+
+div.mybooking div.content div.feedbackBox ul li.total span.name {
+	font-weight: bold
+}
+
+div.mybooking div.content div.feedbackBox ul li span.price {
+	position: absolute;
+	font-weight: bold;
+	right: 0;
+	background: #cce6cc;
+	padding-left: .3em
+}
+
+div.mybooking .feedbackBox p {
+	padding: 0 1em 0 2.7em;
+	color: #006000;
+	margin: .3em 0 0 0
+}
+
+div.mybooking .feedbackBox p.free2go {
+	background-image: url("//q.bstatic.com/static/img/icon_fwd-free.png");
+	background-position: 25em center;
+	background-repeat: no-repeat;
+	clear: both
+}
+
+div.mybooking .feedbackBox input {
+	margin: .5em 2.7em 0
+}
+
+div.content #room-info div {
+	padding-bottom: .5em
+}
+
+div.content #room-info div.submit {
+	padding-top: .5em
+}
+
+div.mybooking #back-main_menu {
+	padding: 1em 2em
+}
+
+#mybookingTmpl div#fullwidth div.mybooking_profile {
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background: #e6edf6;
+	width: 529px
+}
+
+#mybookingTmpl div#fullwidth h3 {
+	font-size: 160%;
+	padding-bottom: 9px
+}
+
+#mybookingTmpl div#fullwidth h3 a {
+	font-size: 80%;
+	margin-left: 10px
+}
+
+#mybookingTmpl div#fullwidth div.mybooking_profile ul {
+	margin-top: 10px !important
+}
+
+#mybookingTmpl div#fullwidth div.mybooking_profile ul.profile_linklist li a
+	{
+	margin: 0;
+	padding-left: 0
+}
+
+#mybookingTmpl div#fullwidth div.mybooking_profile li h4 {
+	margin-top: 5px
+}
+
+#mybookingTmpl div#fullwidth div.mybooking_profile form div label {
+	display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 3px 5px 0 0;
+	text-align: left;
+	width: 210px
+}
+
+#mybookingTmpl div#fullwidth div.mybooking_profile form div input.inputText
+	{
+	border: 1px solid #999;
+	margin: 0;
+	padding: 4px;
+	width: 210px
+}
+
+#mybookingTmpl div#fullwidth form .field {
+	margin: 5px 0 0;
+	padding: 1px 3px
+}
+
+#mybookingTmpl div#fullwidth form div.but_submit {
+	clear: left;
+	margin: 0;
+	padding: 20px 0 0;
+	text-align: right;
+	width: auto
+}
+
+#mybookingTmpl div#fullwidth form p.explain_fields {
+	float: left;
+	font-style: italic;
+	margin: 23px 0 0 13px;
+	width: 250px
+}
+
+#mybookingTmpl div#fullwidth div.error_div {
+	background: none repeat scroll 0 0 #fbe3e4;
+	color: #8a1f11;
+	font-weight: bold;
+	margin: 0 0 10px;
+	padding: 1em;
+	width: 95%
+}
+
+#mybookingTmpl div#fullwidth p.forgotten {
+	padding-right: 6px;
+	text-align: right
+}
+
+h3.headline_createprofile {
+	display: none
+}
+
+table.unavailable {
+	margin-top: 20px
+}
+
+table.unavailable tbody tr td,table.unavailable thead tr td,table.unavailable tbody tr th,table.unavailable thead tr th
+	{
+	background-color: #fff !important;
+	color: #000 !important
+}
+
+table.unavailable tbody tr th {
+	color: red !important;
+	background-color: #ffdbdb !important
+}
+
+table.unavailable thead tr th {
+	border-top: 1px solid #8aa489;
+	border-bottom-width: 0 !important
+}
+
+table.unavailable tbody tr th:nth-child(3),table.unavailable tbody tr td:nth-child(3)
+	{
+	border-right: 1px solid #8aa489
+}
+
+table.unavailable tbody tr th {
+	border-top: 1px solid #8aa489
+}
+
+table.unavailable thead tr th:nth-child(3) {
+	border-right: 1px solid #8aa489
+}
+
+#bookOverviewTop.book_stage_element {
+	background-color: #fff !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px
+}
+
+.book_stage_element {
+	margin: 0 0 1em 0 !important;
+	padding: 0 !important;
+	background: #e6edf6 !important;
+	border: 1px solid #779bca;
+	width: 56em !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px
+}
+
+.book_stage_element .b_group_recommendation,.book_stage_element #top_warning
+	{
+	background: white !important;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	border-radius: 1em;
+	margin: 1em !important;
+	padding: .5em .5em .5em 1em !important;
+	border: 2px solid white;
+	width: 52em
+}
+
+.book_stage_element #top_warning ul {
+	margin: .5em 0;
+	padding-left: 4em
+}
+
+.book_stage_element #top_warning label {
+	margin-bottom: 0;
+	font-weight: normal
+}
+
+.book_stage_element #top_warning p {
+	margin-bottom: .25em;
+	padding-left: 2.5em;
+	padding-top: .6em;
+	font: italic 15px/1.5em Georgia, serif
+}
+
+.book_stage_element #top_warning span.exclamation {
+	-moz-border-radius: 1.5em;
+	-webkit-border-radius: 1.5em;
+	border-radius: 1.5em;
+	height: 1.5em;
+	line-height: 1.5em;
+	text-align: center;
+	width: 1.5em
+}
+
+.book_stage_element h1,.book_stage_element h2,.book_stage_element h3 {
+	padding: 0;
+	margin: 0
+}
+
+.book_stage_element td.yourdetailsblock,.book_stage_element h2 {
+	background-color: #779bca;
+	color: white;
+	font-size: 15px;
+	margin: 0;
+	padding: .35em .5em;
+	clear: both
+}
+
+.book_stage_element td.yourdetailsblock,.book_stage_element #bookForm h2
+	{
+	margin-bottom: 1.5em
+}
+
+.book_stage_element fieldset+h2 {
+	margin-top: 1em !important
+}
+
+.book_stage_element h3.roomname {
+	clear: both;
+	margin: 0 0 .5em;
+	font-weight: normal;
+	font-size: 13px;
+	padding-left: 13px
+}
+
+.book_stage_element label {
+	font-size: 13px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: .3em
+}
+
+.book_stage_element .room_item label {
+	font-size: 13px
+}
+
+.book_stage_element .addon_desc label,.book_stage_element .addon label {
+	font-weight: normal;
+	margin-bottom: 0 !important;
+	font-size: 12px;
+	line-height: 1.3em
+}
+
+.book_stage_element .discr label {
+	font-weight: bold
+}
+
+.book_stage_element fieldset {
+	clear: both;
+	padding: 0 1.5em !important;
+	border: 0;
+	margin-left: 0
+}
+
+.book_stage_element fieldset.room_item {
+	padding: 0 !important;
+	margin-top: 20px
+}
+
+.book_stage_element fieldset#newsletter {
+	margin-top: 1.5em
+}
+
+.book_stage_element fieldset#newsletter h3 {
+	font-size: 15px
+}
+
+.book_stage_element fieldset#field_remarks {
+	margin-top: 2em
+}
+
+.book_stage_element .field {
+	margin: 0 0 .5em 0;
+	padding: .25em;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	clear: both;
+	position: relative
+}
+
+.book_stage_element #credit_card .field {
+	margin-right: 1em
+}
+
+.book_stage_element p.errorSimpleMsg {
+	padding: 1em 0 0 .25em !important;
+	clear: both
+}
+
+.book_stage_element p.errorSimpleMsg+p.errorSimpleMsg {
+	padding-top: 1em !important
+}
+
+.book_stage_element .field p.errorSimpleMsg {
+	padding-left: 0 !important
+}
+
+.book_stage_element .error label {
+	background:
+		url("//q.bstatic.com/static/img/experiments/error_field.png") 2px
+		center no-repeat;
+	padding-left: 10px
+}
+
+.book_stage_element #login-form_wrapper .field {
+	clear: none !important
+}
+
+.book_stage_element .room {
+	background-color: none;
+	float: left;
+	clear: none;
+	padding: 0;
+	padding-left: 13px
+}
+
+.book_stage_element .field:hover {
+	-webkit-transition: all .5s ease-in-out
+}
+
+.book_stage_element .field label {
+	float: none;
+	line-height: 1em;
+	width: auto
+}
+
+.book_stage_element #field_firstname.field,.book_stage_element #field_lastname.field,.book_stage_element #field_email.field,.book_stage_element #field_email_confirm.field,.book_stage_element #field_city.field,.book_stage_element #field_zip.field,.book_stage_element #field_cc-type.field,.book_stage_element #field_cc-number.field,.book_stage_element #field_cc-month.field,.book_stage_element #field_cc-cvc.field,.book_stage_element #field_issue-number.field,.book_stage_element #field_cc-cvc.field
+	{
+	float: left;
+	width: auto;
+	clear: none
+}
+
+.book_stage_element #field_valid-untill.field,.book_stage_element #field_cc-name.field
+	{
+	float: left;
+	width: auto;
+	clear: left
+}
+
+.book_stage_element #field_valid-untill.field {
+	margin-left: 13.5em
+}
+
+.book_stage_element .room_item {
+	clear: left;
+	margin-left: 1.75em;
+	margin-bottom: 1em;
+	padding: 0;
+	width: auto !important;
+	border-left: 4px solid #779bca
+}
+
+.book_stage_element .room_item .room {
+	background: none !important
+}
+
+.book_stage_element #login-form_wrapper fieldset {
+	margin-top: 0 !important;
+	padding-top: 2.5% !important
+}
+
+.book_stage_element .login-form_toggle,.book_stage_element #login_close
+	{
+	top: 1em !important;
+	right: 1em !important
+}
+
+.book_stage_element .ccwhy {
+	width: 56em;
+	border-bottom-width: 0;
+	background:
+		url("//q.bstatic.com/static/img/experiments/info_green_bg.gif")
+		no-repeat .6em .6em #390;
+	padding: .5em .5em .5em 2.5em;
+	color: #fff;
+	font-style: normal;
+	font-size: 90%;
+	line-height: 1.7em;
+	margin: 1.5em;
+	-moz-border-radius: .3em;
+	-webkit-border-radius: .3em;
+	border-radius: .3em
+}
+
+.book_stage_element .ccwhy a,.book_stage_element .ccwhy a:hover,.book_stage_element .ccwhy a:visited
+	{
+	color: #fff
+}
+
+.book_stage_element .room_item .bookExtra {
+	float: left;
+	clear: both;
+	width: 35em;
+	margin-top: .5em;
+	padding-left: 1em
+}
+
+.book_stage_element .bookExtra table#extrOptions,.book_stage_element .bookExtraOld table#extrOptionsOld,.book_stage_element .bookExtraOld table#freeCancel
+	{
+	width: auto !important
+}
+
+.book_stage_element .bookExtra table#extrOptions .checkbox,.book_stage_element .bookExtra table#extrOptionsOld .checkbox,.book_stage_element .bookExtra table#freeCancel .checkbox
+	{
+	padding-right: 4px !important
+}
+
+.book_stage_element table#extrOptions tr td,.book_stage_element table#extrOptionsOld tr td,.book_stage_element table#freeCancel tr td
+	{
+	padding: 0 !important;
+	line-height: 1.2
+}
+
+.book_stage_element table#extrOptions tr.addon_desc td,.book_stage_element table#extrOptionsOld tr.addon_desc td,.book_stage_element table#freeCancel tr.addon_desc td
+	{
+	padding-bottom: 0 !important
+}
+
+.book_stage_element div.bookExtra {
+	margin: 0
+}
+
+.book_stage_element table#extrOptions tr td.unitPrice,.book_stage_element table#extrOptionsOld tr td.unitPrice,.book_stage_element table#freeCancel tr td.unitPrice
+	{
+	padding-left: .5em !important
+}
+
+.book_stage_element table#extrOptions tr td.eqSign,.book_stage_element table#extrOptionsOld tr td.eqSign,.book_stage_element table#freeCancel tr td.eqSign
+	{
+	padding: 0 .5em !important
+}
+
+.book_stage_element fieldset#newsletter {
+	margin: 1em;
+	padding: 1em 0 !important;
+	border-top: 1px solid white
+}
+
+.book_stage_element #newsletter h3 {
+	font-size: 13px;
+	margin-bottom: .5em
+}
+
+.book_stage_element #newsletter p {
+	font-weight: normal
+}
+
+.book_stage_element #newsletter input#mailinglist {
+	float: left;
+	margin-right: .5em;
+	line-height: 1em
+}
+
+.book_stage_element #newsletter label {
+	font-weight: normal;
+	line-height: 1em
+}
+
+.book_stage_element #book_button {
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	padding: .3em 1em;
+	background: #0896ff;
+	border: 3px solid white;
+	color: white;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 1em;
+	margin-right: 0;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+	border-radius: .5em
+}
+
+.book_stage_element #book_button:hover {
+	background-color: #003580
+}
+
+.book_stage_element #book_button:active {
+	color: #003580;
+	background-color: #feba02
+}
+
+.book_stage_element div.confirmsubmit {
+	padding-bottom: 0 !important
+}
+
+.book_stage_element label span.optional {
+	color: #779bca !important;
+	font-weight: normal !important
+}
+
+.hasJS #dc_issue_error,.hasJS label#dc_issue_label,.hasJS #dc_issue_number,.hasJS label#dc_yyyymm_label,.hasJS #dc_yyyymm_field
+	{
+	display: none
+}
+
+.book_stage_element #bookOverviewTop {
+	border: 0 !important;
+	margin: 0 !important;
+	background: white
+}
+
+.book_stage_element .yourdetailsblock {
+	font-size: 15px
+}
+
+.required_fields {
+	padding: 1em 1.6em;
+	color: #779bca;
+	font-weight: bold;
+	float: left
+}
+
+span.asterisc {
+	color: black;
+	padding-left: .25em
+}
+
+.book_stage_element .addon_desc td label {
+	font-size: 11px !important;
+	padding: 0 0 12px !important
+}
+
+.stage_final {
+	text-align: right;
+	padding: 20px;
+	background-color: #fff !important;
+	border-width: 0 !important
+}
+
+textarea {
+	padding: 0;
+	line-height: 1.5em;
+	font-size: 14px
+}
+
+#field_remarks label span {
+	font-weight: normal !important
+}
+
+#field_remarks label {
+	margin-bottom: .5em
+}
+
+.novisa #visa_info,.noamex #amex_info {
+	display: none
+}
+
+#visa_info,#amex_info {
+	padding: 10px
+}
+
+#visa_info img,#amex_info img {
+	display: block;
+	margin: 5px 0
+}
+
+#close_cvc {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: #666;
+	text-decoration: none
+}
+
+.real_login #tooltip {
+	width: 300px
+}
+
+.real_login #login-form {
+	padding: 0 !important
+}
+
+.real_login #login-form_toggle2 {
+	display: none
+}
+
+.real_login #login-form_wrapper {
+	display: inline
+}
+
+.real_login #login-form_wrapper form {
+	clear: both;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0 !important;
+	width: 100%;
+	position: relative;
+	background: #bbcde5
+}
+
+#bookStage2Inc .real_login .expanded form {
+	border-bottom: 2px solid #779bca
+}
+
+#bookStage2Inc .real_login .registered form {
+	border: 1px solid #779bca;
+	background: #dbe5f2 !important;
+	clear: both;
+	float: left;
+	margin: 1em 0 1em 0 !important;
+	padding: 1em 1em 0 1em !important;
+	width: 51.6em !important;
+	-moz-border-radius: .3em;
+	-webkit-border-radius: .3em;
+	border-radius: .3em
+}
+
+.real_login #login-form_wrapper h3 {
+	font-size: 14px !important;
+	margin: 0 0 .25em 0;
+	padding: 1em 1em 0;
+	overflow: hidden
+}
+
+.real_login #login-form_wrapper.registered h3 {
+	display: inline;
+	padding-right: 18px;
+	background: url("//r.bstatic.com/static/img/info.png") right top
+		no-repeat;
+	cursor: help
+}
+
+.real_login #login-form_wrapper div.field {
+	margin-bottom: .5em;
+	position: relative;
+	float: left;
+	width: 200px
+}
+
+.real_login #login-form_wrapper div#password {
+	width: 450px !important
+}
+
+.real_login #login-form_wrapper div.field label {
+	font-weight: bold
+}
+
+.real_login #login-form_wrapper.registered div.field label {
+	font-weight: normal
+}
+
+.real_login #login-form_wrapper .forgotten {
+	clear: both;
+	float: none;
+	font-size: 11px;
+	padding-top: 5px;
+	margin-bottom: 0
+}
+
+.real_login #login-form_wrapper .forgotten a {
+	color: #003580 !important
+}
+
+.real_login #login-form_wrapper .forgotten a:hover {
+	color: black !important
+}
+
+.real_login #login-form_wrapper.registered .forgotten {
+	clear: both;
+	float: left;
+	padding-bottom: 1em;
+	width: 100%
+}
+
+.real_login #login-form_wrapper .forgotten:after {
+	content: ' )'
+}
+
+.real_login #login-form_wrapper .forgotten:before {
+	content: '( '
+}
+
+.real_login #login-form_wrapper.registered p.reassure {
+	font-size: 12px;
+	margin-bottom: .5em !important
+}
+
+.real_login #login-form_wrapper fieldset {
+	margin: 1em .5em;
+	padding: 0;
+	border: 0
+}
+
+#login-form_wrapper fieldset {
+	display: none
+}
+
+.expanded fieldset,#login-form_wrapper.expanded fieldset {
+	display: inline
+}
+
+.real_login #login-form_wrapper fieldset {
+	margin: 1em 0 0;
+	padding: 0 2.5% 2.5% !important;
+	width: 95%;
+	border-bottom: 1px solid #779bca
+}
+
+.real_login #login-form_wrapper fieldset input {
+	margin: 0;
+	padding: 3px 5px !important;
+	border: 1px solid #779bca;
+	float: left
+}
+
+.real_login #login-form_wrapper #submit-wrapper {
+	float: left;
+	display: block;
+	height: 23px;
+	line-height: 23px;
+	margin-left: 5px;
+	padding-left: 3px;
+	background: url("//q.bstatic.com/static/img/bkg_button-sprite_3.png")
+		left top no-repeat;
+	cursor: pointer
+}
+
+.real_login #login-form_wrapper fieldset input.submit {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+	width: auto !important;
+	height: 23px;
+	line-height: 1em;
+	padding: 3px 20px 3px 3px !important;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	background: url("//q.bstatic.com/static/img/bkg_button-sprite_3.png")
+		right top no-repeat
+}
+
+.real_login #login-form_wrapper input.submit:hover {
+	background-position: right bottom
+}
+
+.real_login #login-form_wrapper #submit-wrapper:hover,.real_login #login-form_wrapper input.submit:hover span
+	{
+	background-position: left bottom
+}
+
+.real_login #unrecognised_login {
+	display: inline
+}
+
+.real_login .field label {
+	left: 6px;
+	bottom: 0;
+	line-height: 23px;
+	float: left;
+	width: 100%
+}
+
+.real_login #username.field input.input_text {
+	width: 170px !important
+}
+
+.real_login #password.field {
+	width: 360px !important
+}
+
+.real_login .registered #password.field {
+	width: 300px !important
+}
+
+#bookTmpl .real_login p.login_error {
+	color: #a00;
+	padding: .2em 190px .2em 0 !important;
+	padding-left: 0 !important;
+	min-height: 1em !important;
+	font-weight: bold;
+	margin: 0;
+	z-index: 10
+}
+
+.real_login .content {
+	clear: both
+}
+
+.real_login .content div.name,.real_login .content div.email,.real_login .content div.guests
+	{
+	padding-left: 1em !important
+}
+
+#login_jump {
+	margin-right: 1em;
+	margin-top: 1em;
+	line-height: 15px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003580 !important;
+	display: block;
+	height: 16px;
+	cursor: pointer;
+	text-decoration: underline;
+	padding-right: 19px
+}
+
+.real_login .login-form_toggle {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	z-index: 15;
+	line-height: 15px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003580 !important;
+	display: block;
+	height: 16px;
+	cursor: pointer;
+	text-decoration: underline;
+	padding-right: 19px
+}
+
+.real_login .opbp_login #login-form {
+	margin-bottom: 0
+}
+
+.real_login .opbp_login #login_open {
+	color: #fff !important;
+	top: .7em !important
+}
+
+.real_login .opbp_login #login_closed {
+	top: .7em
+}
+
+.real_login #login_open {
+	background: url("//r.bstatic.com/static/img/info.png") right top
+		no-repeat;
+	display: block
+}
+
+.real_login #login_close {
+	background: url("//q.bstatic.com/static/img/login-button_close.png")
+		right top no-repeat;
+	display: none
+}
+
+.real_login .login-form_toggle:hover {
+	color: black !important
+}
+
+#bookStage2Inc.show_login .real_login p.warn {
+	padding-right: 190px
+}
+
+.real_login .expanded #login_open {
+	display: none
+}
+
+.real_login .expanded #login_close {
+	display: block
+}
+
+.bonusmilestitle {
+	background:
+		url("//q.bstatic.com/static/img/experiments/info_green_bg.gif")
+		no-repeat scroll 7px 4px #390;
+	border-bottom-width: 0;
+	color: #fff;
+	font-size: 90%;
+	font-style: normal;
+	line-height: 1.7em;
+	margin-bottom: 10px;
+	padding: 5px 5px 8px 28px;
+	width: 90%;
+	font: small/1.2em "HelveticaNeue-Light", "Helvetica Neue Light",
+		Helvetica, Arial, sans-serif;
+	border-spacing: 0;
+	text-align: left
+}
+
+#bonusmilesid {
+	margin-top: 1em
+}
+
+.reinforcement {
+	margin: 5px 0 0;
+	padding: 10px;
+	min-height: 40px;
+	_height: 40px
+}
+
+.reinforcement em {
+	font-style: normal;
+	color: #090;
+	font-weight: bold
+}
+
+.reinforcement strong {
+	font-weight: bold;
+	color: #900
+}
+
+.re-tick {
+	background: #e1f0d9 url("//s.bstatic.com/static/img/re-tick.png")
+		no-repeat 10px;
+	padding-left: 68px
+}
+
+.re-time {
+	background: #ffe1d9 url("//s.bstatic.com/static/img/re-time.png")
+		no-repeat 10px;
+	padding-left: 68px
+}
+
+.re-food {
+	background: #dff1d7 url("//s.bstatic.com/static/img/re-food.png")
+		no-repeat 10px;
+	padding-left: 65px
+}
+
+#bookStage3Inc table#newsletter label input.weekly_fd {
+	height: 14px;
+	vertical-align: top;
+	width: 14px
+}
+
+#bookStage3Inc {
+	position: relative
+}
+
+#cc_img {
+	position: absolute;
+	right: -16.5em;
+	bottom: 0;
+	background: #fff;
+	text-align: center;
+	width: 15.5em;
+	border: 1px solid #779bca;
+	margin-left: 6px;
+	border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0
+}
+
+.b_msie_6 #cc_img {
+	bottom: 1.2em
+}
+
+#cc_img h4 {
+	margin: 0;
+	background: #779bca;
+	color: #fff;
+	padding: 3px 0
+}
+
+#cc_img p {
+	margin: .5em 10px 1em
+}
+
+.novisa #visa,.noamex #amex {
+	display: none
+}
+
+.cancellations.collapse dt {
+	padding-left: 15px;
+	background-image:
+		url("//r.bstatic.com/static/img/arrow-right-link_small.png");
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+	margin-bottom: .5em
+}
+
+.cancellations.collapse dl.active dt {
+	background-image:
+		url("//q.bstatic.com/static/img/arrow-down-link_small.png");
+	background-position: left 6px
+}
+
+.cancellations.collapse dd {
+	margin: 0;
+	padding: 0;
+	padding-left: 15px
+}
+
+#new_book_process_button {
+	padding: .3em .9em;
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: #0896ff;
+	color: #FFF;
+	border: 4px solid #fff;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 2px #999;
+	-webkit-box-shadow: 1px 1px 2px #999;
+	box-shadow: 1px 1px 2px #999; //
+	padding: .3em 0;
+	margin: 5px 11px 5px 0;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box
+}
+
+#new_book_process_button:hover {
+	background-color: #003580;
+	cursor: pointer;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out
+}
+
+.book_stage_element {
+	width: 55.9em !important
+}
+
+.book_stage_element h2 {
+	position: relative;
+	padding-left: 35px
+}
+
+.book_stage_element .book_stage_edit {
+	position: absolute;
+	right: .5em;
+	top: 4px;
+	color: #003580;
+	font-size: 10px;
+	margin: 0 0 0 5px;
+	text-decoration: none;
+	background-color: #e6edf6;
+	padding: 1px 10px 0;
+	border-radius: 10px;
+	font-weight: normal
+}
+
+.book_stage_edit:hover {
+	background-color: #fff;
+	color: #003580
+}
+
+.book_stage_edit:active {
+	background-color: #feba02;
+	color: #003580
+}
+
+.book_stage_element .step_num {
+	padding: 5px;
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.book_continue_button {
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	-webkit-box-shadow: #CCC 1px 1px 1px;
+	background-color: #0896ff;
+	border: 2px solid white;
+	border-radius: 8px;
+	color: white;
+	cursor: pointer;
+	font-size: 1.33em;
+	font-weight: normal;
+	margin-right: 1em;
+	padding: .35em 1em;
+	font-weight: bold;
+	margin: 10px 20px 20px
+}
+
+.book_continue_button:hover,.book_continue_button:focus {
+	background-color: #003580;
+	-webkit-transition: all .1s ease-in-out;
+	cursor: pointer
+}
+
+.book_continue_button:active {
+	background-color: #feba02;
+	color: #003580
+}
+
+div.bs_cc .book_stage_button {
+	display: none !important
+}
+
+.book_stage_element .field label {
+	display: inline-block;
+	line-height: 17px !important
+}
+
+.book_stage_element input {
+	display: block;
+	padding: 3px 5px;
+	border: 1px threadface #DDD
+}
+
+.book_stage_element p.errorSimpleMsg {
+	height: 0 !important;
+	padding: 0 !important
+}
+
+.book_stage_element p.herror {
+	height: inherit !important;
+	visibility: visible;
+	padding: 0 0 0 5px !important
+}
+
+.book_stage_element .val-no,.book_stage_element .val-yes {
+	padding-top: 0 !important
+}
+
+.book_stage_element #book_name {
+	margin-top: 10px
+}
+
+.book_stage_element p.errorSimpleMsg+p.errorSimpleMsg {
+	padding-top: 0 !important
+}
+
+.book_stage_element p.herror+p.herror {
+	padding-top: 1em
+}
+
+.book_stage_element p.herror {
+	padding: 6px 0 !important
+}
+
+.bs_1bp_newsletter {
+	background-color: #fff;
+	padding: 22px;
+	margin: 10px 20px;
+	position: relative;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px
+}
+
+.bs_1bp_newsletter input {
+	position: absolute;
+	top: 15px;
+	left: 10px
+}
+
+.bs_1bp_newsletter label {
+	position: absolute;
+	top: 15px;
+	left: 35px;
+	font-size: 12px
+}
+
+.book_stage_element #field_valid-untill.field {
+	clear: left;
+	margin-left: 0 !important
+}
+
+.book_stage_element .field_smoking select,.book_stage_element .field_guests
+	{
+	margin-top: 25px !important
+}
+
+.book_stage_element label#label_cc_month {
+	display: inherit
+}
+
+.obpb #login-form_wrapper fieldset {
+	margin: 1em 15% !important
+}
+
+.opbp form#login-form fieldset {
+	background-color: #bbcde5;
+	border: 1px solid #779bca;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 10px !important;
+	width: 53em
+}
+
+div.logged-in-user {
+	color: #003580;
+	margin-top: -10px;
+	padding: 14px 0;
+	text-align: right;
+	border-bottom-width: 0;
+	font-size: 12px !important
+}
+
+.obpb #field_cc-type select {
+	display: block
+}
+
+.bc_css p#agree {
+	font-size: 85%
+}
+
+.bs_cc div.confirmsubmit p {
+	text-align: center
+}
+
+.bs_cc p#agree,.bs_cc div.confirmsubmit input#book_button {
+	text-align: center;
+	padding: 6px
+}
+
+.bs_cc div.confirmsubmit input#book_button {
+	display: inline !important
+}
+
+.bs_cc div.confirmsubmit input#book_button {
+	margin: 0 auto 21px
+}
+
+.hideByJS {
+	display: none !important
+}
+
+.book_stage_element div.field textarea {
+	padding: 4px !important
+}
+
+div.bs_cc p.herror,div.bs_cc p.errorSimpleMsg {
+	padding-left: 20px !important
+}
+
+#unique_book_process p.warn {
+	margin: 20px auto !important;
+	padding: 10px;
+	width: 80%;
+	color: red !important;
+	border: 1px solid red;
+	background-color: pink;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	text-align: center
+}
+
+.price_per_unit {
+	white-space: nowrap
+}
+
+#bookTmpl #fullwidth #bookProgressBar,#confirmationTmpl #fullwidth #bookProgressBar
+	{
+	background: white url('/static/img/experiments/progress-bar.jpg')
+		repeat-x;
+	margin-bottom: 10px;
+	float: left
+}
+
+#bookProgressBar #stage1,#bookProgressBar #stage2,#bookProgressBar #stage3,#bookProgressBar #stage4
+	{
+	width: 56em;
+	padding: 0;
+	margin: 0;
+	display: inline;
+	float: left;
+	list-style-type: none
+}
+
+#bookProgressBar #stage1 li,#bookProgressBar #stage2 li,#bookProgressBar #stage3 li,#bookProgressBar #stage4 li
+	{
+	padding: 7px 0 0 0;
+	width: 181px;
+	font-weight: bold;
+	font-size: 14px;
+	float: left;
+	text-align: center
+}
+
+#bookProgressBar #stage1 li.step4,#bookProgressBar #stage2 li.step4,#bookProgressBar #stage3 li.step4,#bookProgressBar #stage4 li.step4
+	{
+	float: right !important
+}
+
+#bookProgressBar #stage1 li.step1 {
+	background:
+		url('/static/img/experiments/progress-step-current-white3.png') 0 0
+		no-repeat;
+	color: white
+}
+
+#bookProgressBar #stage2 li.step1,#bookProgressBar #stage3 li.step1,#bookProgressBar #stage3 li.step2,#bookProgressBar #stage4 li.step1,#bookProgressBar #stage4 li.step2,#bookProgressBar #stage4 li.step3
+	{
+	background: url('/static/img/experiments/progress-step-completed.png')
+		50% 0 no-repeat
+}
+
+#bookProgressBar #stage2 li.first,#bookProgressBar #stage3 li.first,#bookProgressBar #stage4 li.first
+	{
+	background:
+		url('/static/img/experiments/progress-step-completed-white.png') 0 0
+		no-repeat !important
+}
+
+#bookProgressBar #stage1 li.last,#bookProgressBar #stage2 li.last,#bookProgressBar #stage3 li.last
+	{
+	background:
+		url('/static/img/experiments/progress-step-uncompleted-white.png')
+		100% 0 no-repeat !important
+}
+
+#bookProgressBar #stage4 li.last {
+	background:
+		url('/static/img/experiments/progress-step-current-white.png') 100% 0
+		no-repeat !important
+}
+
+#bookProgressBar #stage2 li.step2,#bookProgressBar #stage3 li.step3,#bookProgressBar #stage4 li.step4
+	{
+	background: url('/static/img/experiments/progress-step-current.png') 50%
+		0 no-repeat;
+	color: white
+}
+
+#bookProgressBar #stage1 li.step2,#bookProgressBar #stage1 li.step3,#bookProgressBar #stage1 li.step4,#bookProgressBar #stage2 li.step3,#bookProgressBar #stage2 li.step4,#bookProgressBar #stage3 li.step4
+	{
+	background: url('/static/img/experiments/progress-step-uncompleted.png')
+		50% 0 no-repeat;
+	color: #b4b4b4
+}
+
+#bookProgressBar #stage1 li.step1 span,#bookProgressBar #stage1 li.step2 span,#bookProgressBar #stage1 li.step3 span,#bookProgressBar #stage1 li.step4 span,#bookProgressBar #stage2 li.step1 span,#bookProgressBar #stage3 li.step1 span,#bookProgressBar #stage3 li.step2 span,#bookProgressBar #stage4 li.step1 span,#bookProgressBar #stage4 li.step2 span,#bookProgressBar #stage4 li.step3 span,#bookProgressBar #stage2 li.step2 span,#bookProgressBar #stage3 li.step3 span,#bookProgressBar #stage4 li.step4 span,#bookProgressBar #stage2 li.step3 span,#bookProgressBar #stage2 li.step4 span,#bookProgressBar #stage3 li.step4 span
+	{
+	font-size: 11px;
+	line-height: 40px
+}
+
+#bookProgressBar #stage2 li.step1 span,#bookProgressBar #stage3 li.step1 span,#bookProgressBar #stage3 li.step2 span,#bookProgressBar #stage4 li.step1 span,#bookProgressBar #stage4 li.step2 span,#bookProgressBar #stage4 li.step3 span
+	{
+	color: #7e7e7e
+}
+
+#bookProgressBar #stage1 li.step1 span,#bookProgressBar #stage2 li.step2 span,#bookProgressBar #stage3 li.step3 span,#bookProgressBar #stage4 li.step4 span
+	{
+	color: black
+}
+
+#bookProgressBar #stage1 li.step2 span,#bookProgressBar #stage1 li.step3 span,#bookProgressBar #stage1 li.step4 span,#bookProgressBar #stage2 li.step3 span,#bookProgressBar #stage2 li.step4 span,#bookProgressBar #stage3 li.step4 span
+	{
+	color: #b4b4b4
+}
+
+#bookTmpl #fullwidth #bookProgressBar2 {
+	background: white url('/static/img/experiments/progress-bar.jpg')
+		repeat-x;
+	margin-bottom: 2em;
+	float: left
+}
+
+#bookProgressBar2 #stage1,#bookProgressBar2 #stage2,#bookProgressBar2 #stage3
+	{
+	width: 56em;
+	padding: 0;
+	margin: 0;
+	display: inline;
+	float: left;
+	list-style-type: none
+}
+
+#bookProgressBar2 #stage1 li,#bookProgressBar2 #stage2 li,#bookProgressBar2 #stage3 li
+	{
+	padding: 7px 0 0 0;
+	width: 242px;
+	font-weight: bold;
+	font-size: 14px;
+	float: left;
+	text-align: center
+}
+
+#bookProgressBar2 #stage1 li.step3,#bookProgressBar2 #stage2 li.step3,#bookProgressBar2 #stage3 li.step3
+	{
+	float: right !important
+}
+
+#bookProgressBar2 #stage1 li.step1 {
+	background:
+		url('/static/img/experiments/progress-step-current-white4.png') 0 0
+		no-repeat !important;
+	color: white
+}
+
+#bookProgressBar2 #stage2 li.step1,#bookProgressBar2 #stage3 li.step1,#bookProgressBar2 #stage3 li.step2
+	{
+	background: url('/static/img/experiments/progress-step-completed.png')
+		50% 0 no-repeat
+}
+
+#bookProgressBar2 #stage2 li.step2,#bookProgressBar2 #stage3 li.step3 {
+	background: url('/static/img/experiments/progress-step-current.png') 50%
+		0 no-repeat;
+	color: white
+}
+
+#bookProgressBar2 #stage1 li.step2,#bookProgressBar2 #stage1 li.step3,#bookProgressBar2 #stage2 li.step3
+	{
+	background: url('/static/img/experiments/progress-step-uncompleted.png')
+		50% 0 no-repeat;
+	color: #b4b4b4
+}
+
+#bookProgressBar2 #stage2 li.first,#bookProgressBar2 #stage3 li.first {
+	background:
+		url('/static/img/experiments/progress-step-completed-white2.png') 0 0
+		no-repeat !important
+}
+
+#bookProgressBar2 #stage1 li.last,#bookProgressBar2 #stage2 li.last {
+	background:
+		url('/static/img/experiments/progress-step-uncompleted-white2.png')
+		100% 0 no-repeat !important
+}
+
+#bookProgressBar2 #stage3 li.last {
+	background:
+		url('/static/img/experiments/progress-step-current-white2.png') 100% 0
+		no-repeat !important
+}
+
+#bookProgressBar2 #stage1 li.step1 span,#bookProgressBar2 #stage1 li.step2 span,#bookProgressBar2 #stage1 li.step3 span,#bookProgressBar2 #stage2 li.step1 span,#bookProgressBar2 #stage3 li.step1 span,#bookProgressBar2 #stage3 li.step2 span,#bookProgressBar2 #stage2 li.step2 span,#bookProgressBar2 #stage3 li.step3 span,#bookProgressBar2 #stage2 li.step3 span
+	{
+	font-size: 11px;
+	line-height: 40px
+}
+
+#bookProgressBar2 #stage2 li.step1 span,#bookProgressBar2 #stage3 li.step1 span,#bookProgressBar2 #stage3 li.step2 span
+	{
+	color: #7e7e7e
+}
+
+#bookProgressBar2 #stage1 li.step1 span,#bookProgressBar2 #stage2 li.step2 span,#bookProgressBar2 #stage3 li.step3 span
+	{
+	color: black
+}
+
+#bookProgressBar2 #stage1 li.step2 span,#bookProgressBar2 #stage1 li.step3 span,#bookProgressBar2 #stage2 li.step3 span
+	{
+	color: #b4b4b4
+}
+
+.b_group_note {
+	margin-top: 1em
+}
+
+.b_group_note p {
+	background: #fff6bf url(//s.bstatic.com/static/img/icon_error.png)
+		no-repeat .8em .8em;
+	color: #514721 !important;
+	padding: .8em .8em .8em 30px;
+	font-size: 11px !important;
+	line-height: 1.5;
+	margin-bottom: 0
+}
+
+div#booking_details {
+	padding: 10px 0;
+	margin: 0;
+	position: relative;
+	width: 62%
+}
+
+table#hoteldetails {
+	width: 96% !important;
+	margin: 0 2%
+}
+
+#pricedetails {
+	float: right !important;
+	width: 36% !important;
+	margin: 0 !important;
+	padding: 0;
+	position: relative;
+	right: 0
+}
+
+#pricedetails>a,#pricedetails>span {
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important
+}
+
+#pricedetails>ul {
+	float: left !important;
+	list-style-type: none !important;
+	margin: 0 !important;
+	padding: 10px 0 !important;
+	width: 100%
+}
+
+#pricedetails ul li.charge {
+	clear: both;
+	position: relative;
+	margin-bottom: .4em !important;
+	padding: 0 60px 0 10px !important;
+	background: url(/static/img/newreviews_dottedline.png) left 9px
+		no-repeat;
+	line-height: 12px !important
+}
+
+#pricedetails ul li.not_included,#pricedetails ul li.not_calculable {
+	background: none !important
+}
+
+#pricedetails ul li.not_included {
+	padding-right: 10px !important
+}
+
+#pricedetails ul li.nothing_included {
+	display: none !important
+}
+
+#pricedetails ul li.charge div {
+	font-size: 11px !important;
+	line-height: 12px !important;
+	height: 12px !important
+}
+
+#pricedetails ul li.charge div.value {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 9px !important;
+	background: white;
+	border-left: 2px solid white !important
+}
+
+#pricedetails ul.not_included li div.value {
+	padding-right: 10px !important
+}
+
+#pricedetails ul li.charge div.key {
+	display: inline;
+	background: white;
+	border-right: 2px solid white !important
+}
+
+#pricedetails ul li.charge div.value span.plus-sign {
+	position: absolute;
+	right: 10px;
+	text-align: right;
+	height: 1em
+}
+
+#pricedetails ul li.total {
+	padding: .2em 0 .2em 0 !important;
+	margin: .1em 0 .2em !important;
+	width: 100%;
+	float: left;
+	clear: both;
+	background: #fcf7e8
+}
+
+#pricedetails ul li.total div {
+	font-size: 14px !important;
+	font-weight: bold !important;
+	padding: 0 !important;
+	text-shadow: 0 1px 0 white;
+	background: none !important
+}
+
+#pricedetails ul li.total div.key,#pricedetails ul li.total div.value {
+	border: 0 !important
+}
+
+#pricedetails ul li.total div.key {
+	float: left;
+	padding-left: 9px !important;
+	padding-right: 9px !important
+}
+
+#pricedetails ul li.total div.value {
+	float: right;
+	padding-right: 9px !important
+}
+
+#pricedetails ul.not_included li.total {
+	margin-top: 8px !important
+}
+
+#pricedetails .user_carrency {
+	-moz-border-radius-topright: .5em !important;
+	-moz-border-radius-bottomright: .5em !important;
+	background: #e6edf6;
+	left: 100%;
+	padding: 0 .5em 0 0 !important;
+	position: absolute;
+	white-space: nowrap;
+	font-size: 11px;
+	font-weight: normal;
+	border-top: 1px solid white !important;
+	border-bottom: 1px solid white !important;
+	margin-top: -1px !important;
+	margin-left: -16px !important
+}
+
+#pricedetails .user_currency {
+	color: #779bca;
+	font-size: 13px
+}
+
+#pricedetails #disclaimer {
+	float: left;
+	clear: both;
+	width: 100%;
+	text-align: right;
+	padding-bottom: 8px !important
+}
+
+#pricedetails #disclaimer p {
+	padding: 0 10px;
+	margin-bottom: 2px !important;
+	font-size: 11px !important
+}
+
+#localcurr_dis a,#localcurr_dis a:visited,#localcurr_dis a:link {
+	font-weight: normal !important;
+	color: #6792ca !important
+}
+
+#localcurr_dis a:hover {
+	color: #003580 !important
+}
+
+table#freeCancel,table#freeCancel tr,table#freeCancel td,table#extrOptionsOld,table#extrOptionsOld tr,table#extrOptionsOld td
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 10px;
+	line-height: 1em
+}
+
+table#freeCancel,table#extrOptionsOld {
+	width: 100%
+}
+
+table#freeCancel th,table#extrOptionsOld th {
+	padding: 0 0 .5em 0
+}
+
+table#freeCancel td,table#extrOptionsOld td {
+	vertical-align: bottom;
+	font-size: 11px;
+	padding: .25em .5em 0 0
+}
+
+table#freeCancel td.checkbox,table#extrOptionsOld td.checkbox {
+	vertical-align: top;
+	padding-top: 0
+}
+
+table#freeCancel tr.addon_desc td,table#extrOptionsOld tr.addon_desc td
+	{
+	padding: .5em 0 1em 0;
+	font-size: 11px
+}
+
+table#freeCancel tr td.discr,table#freeCancel tr td.totPrice,table#extrOptionsOld tr td.discr,table#extrOptionsOld tr td.totPrice
+	{
+	font-size: 12px;
+	font-weight: bold
+}
+
+table#freeCancel tr td input,table#extrOptionsOld tr td input {
+	margin-right: 0;
+	padding-right: 0
+}
+
+table#freeCancel td,table#extrOptionsOld td {
+	padding-top: .4em
+}
