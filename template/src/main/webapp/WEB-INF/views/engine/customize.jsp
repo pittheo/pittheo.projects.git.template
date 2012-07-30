@@ -42,44 +42,11 @@
 
   <!-- Navbar
     ================================================== -->
-    <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-fixed-top pull-left">
       <div class="navbar-inner">
         <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="">
-                <a href="http://twitter.github.com/bootstrap/index.html">Overview</a>
-              </li>
-              <li class="">
-                <a href="http://twitter.github.com/bootstrap/scaffolding.html">Scaffolding</a>
-              </li>
-              <li class="">
-                <a href="http://twitter.github.com/bootstrap/base-css.html">Base CSS</a>
-              </li>
-              <li class="">
-                <a href="http://twitter.github.com/bootstrap/components.html">Components</a>
-              </li>
-              <li class="">
-                <a href="http://twitter.github.com/bootstrap/javascript.html">Javascript plugins</a>
-              </li>
-              <li class="">
-                <a href="http://twitter.github.com/bootstrap/less.html">Using LESS</a>
-              </li>
-              <li class="divider-vertical"></li>
-              <li class="active">
-                <a href="./customize_files/customize.htm">Customize</a>
-              </li>
-              <li class="">
-                <a href="http://twitter.github.com/bootstrap/examples.html">Examples</a>
-              </li>
-            </ul>
-          </div>
+<a class="brand" style="float:left; color: white;" href="/template/">Home</a>
+          <a class="brand" style="color: white;" href="http://twitter.github.com/bootstrap/index.html">Twitter Bootstrap</a>
         </div>
       </div>
     </div>

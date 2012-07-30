@@ -3,7 +3,10 @@
 
 package pittheo.projects.template.domain;
 
+import java.lang.Boolean;
 import java.lang.String;
+import java.util.Date;
+import pittheo.projects.template.domain.UserProfile;
 
 privileged aspect UserAccount_Roo_JavaBean {
     
@@ -37,6 +40,54 @@ privileged aspect UserAccount_Roo_JavaBean {
     
     public void UserAccount.setPriviledges(String priviledges) {
         this.priviledges = priviledges;
+    }
+    
+    public UserProfile UserAccount.getProfile() {
+        return this.profile;
+    }
+    
+    public void UserAccount.setProfile(UserProfile profile) {
+        this.profile = profile;
+    }
+    
+    public String UserAccount.getEmail() {
+        return this.email;
+    }
+    
+    public void UserAccount.setEmail(String email) {
+        this.email = email;
+    }
+    
+    public Boolean UserAccount.getVerified() {
+        return this.verified;
+    }
+    
+    public void UserAccount.setVerified(Boolean verified) {
+        this.verified = verified;
+    }
+    
+    public Boolean UserAccount.getFromRegistration() {
+        return this.fromRegistration;
+    }
+    
+    public void UserAccount.setFromRegistration(Boolean fromRegistration) {
+        this.fromRegistration = fromRegistration;
+    }
+    
+    public Date UserAccount.getCreatedAt() {
+        return this.createdAt;
+    }
+    
+    public void UserAccount.setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+    
+    public Date UserAccount.getVerifiedAt() {
+        return this.verifiedAt;
+    }
+    
+    public void UserAccount.setVerifiedAt(Date verifiedAt) {
+        this.verifiedAt = verifiedAt;
     }
     
 }

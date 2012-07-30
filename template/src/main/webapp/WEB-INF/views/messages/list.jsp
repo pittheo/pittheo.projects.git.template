@@ -8,11 +8,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<jsp:include page="./spod-theme/head.jsp" />
+	<jsp:include page="../spod-theme/head.jsp" />
 </head>
 <body>
 
-	<jsp:include page="./spod-theme/header.jsp" />
+	<jsp:include page="../spod-theme/header.jsp" />
     
     <div class="container">
         <div class="row">
@@ -24,14 +24,63 @@
                     <div class="span9">
                         <div class="row">
                             <div class="page-sub-title span9">
-                                <h3>Send me a message</h3>
+                                <h3>List of Messages</h3>
                             </div>
                         </div>
                         
-                        <input class="span5 contact-input" type="text" placeholder="Name" style="margin-right:10px;" name="name">
-                        <input class="span5 contact-input" type="text" placeholder="Email" name="email">
-                        <textarea class="span9 contact-textarea" rows="2" placeholder="Message" name="message" type="text"></textarea>
-                        <button class="btn btn-success" type="submit">Send message</button>
+                        <c:if test="${not empty messages}">
+                        
+	                        <h2>User Accounts</h2>
+	                        <table>
+							  <thead>
+							    <tr>
+							      <th>Message Id</th>
+							      <th>Type</th>
+							      <th>Folder</th>
+							      <th>Sender</th>
+							      <th>Receiver</th>
+							      <th>Subject</th>
+							      <th>Content</th>
+							      <th>isRead</th>
+							      <th>isFlagged</th>
+							      <th>isSpam</th>
+							      <th>sentAt</th>
+							      <th>&nbsp;</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <c:forEach var="message" items="${messages}">
+									<tr id="message-row-${message.id}">
+										<td>${message.type}</td>
+										<td>${message.folder}</td>
+										<td>${message.sender.username}</td>
+										<td>${message.receiver.username}</td>
+										<td>${message.subject}</td>
+										<td>${message.content}</td>
+										<td>${message.isRead}</td>
+										<td>${message.flagged}</td>
+										<td>${message.spam}</td>
+										<td>${message.sentAt}</td>
+										<td>
+											<a style="margin-right: 7px;" message-id="${message.id}" href="" class="deleteMessage" title="Delete"><i class="icon-remove"></i></a>
+											<a message-id="${message.id}" href="/stelexi/signup?form&editMode=true&returnView=admin&messageId=${message.id}" class="editMessage" title="Edit"><i class="icon-edit"></i></a>
+										</td>
+										<td></td>
+									</tr>
+								</c:forEach>
+							  </tbody>
+							</table>
+                        </c:if>
+                        
+                        <c:if test="${empty messages}">
+	                        <div class="alert alert-info">
+	            				<strong>Heads up!</strong> There are no messages.
+	          				</div>
+                        	<h4>Would you like to create one?</h4>
+                        </c:if>
+                        
+                        <a href="/template/messages?form" class="btn btn-large btn-primary">Create New Message</a>
+                        <a href="/template/messages?form" class="btn btn-large btn-primary pull-right">Create New Message (AJAX)</a>
                     </div><!--/span6 box-->
 
                     <div class="span3">
@@ -73,7 +122,7 @@
     </div><!-- /container -->
 
     
-   	<jsp:include page="./spod-theme/footer.jsp" /> 
+   	<jsp:include page="../spod-theme/footer.jsp" /> 
 
 
 </body></html>

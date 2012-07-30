@@ -9,11 +9,17 @@ privileged aspect UserAccount_Roo_ToString {
     
     public String UserAccount.toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append("CreatedAt: ").append(getCreatedAt()).append(", ");
+        sb.append("Email: ").append(getEmail()).append(", ");
+        sb.append("FromRegistration: ").append(getFromRegistration()).append(", ");
         sb.append("Hash: ").append(getHash()).append(", ");
         sb.append("Id: ").append(getId()).append(", ");
         sb.append("Password: ").append(getPassword()).append(", ");
         sb.append("Priviledges: ").append(getPriviledges()).append(", ");
+        sb.append("Profile: ").append(getProfile()).append(", ");
         sb.append("Username: ").append(getUsername()).append(", ");
+        sb.append("Verified: ").append(getVerified()).append(", ");
+        sb.append("VerifiedAt: ").append(getVerifiedAt()).append(", ");
         sb.append("Version: ").append(getVersion());
         return sb.toString();
     }

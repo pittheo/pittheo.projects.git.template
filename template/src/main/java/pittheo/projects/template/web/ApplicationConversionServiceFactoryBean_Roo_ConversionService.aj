@@ -6,17 +6,26 @@ package pittheo.projects.template.web;
 import java.lang.String;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.format.FormatterRegistry;
+import pittheo.projects.template.domain.Message;
 import pittheo.projects.template.domain.UserAccount;
 
 privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService {
     
     public void ApplicationConversionServiceFactoryBean.installLabelConverters(FormatterRegistry registry) {
+        registry.addConverter(new MessageConverter());
         registry.addConverter(new UserAccountConverter());
     }
     
     public void ApplicationConversionServiceFactoryBean.afterPropertiesSet() {
         super.afterPropertiesSet();
         installLabelConverters(getObject());
+    }
+    
+    static class pittheo.projects.template.web.ApplicationConversionServiceFactoryBean.MessageConverter implements Converter<Message, String> {
+        public String convert(Message message) {
+            return new StringBuilder().append(message.getSubject()).append(" ").append(message.getContent()).append(" ").append(message.getSentAt()).append(" ").append(message.getLastViewed()).toString();
+        }
+        
     }
     
     static class pittheo.projects.template.web.ApplicationConversionServiceFactoryBean.UserAccountConverter implements Converter<UserAccount, String> {

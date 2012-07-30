@@ -4,6 +4,8 @@ import java.io.UnsupportedEncodingException;
 import java.util.Collection;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
+import org.joda.time.format.DateTimeFormat;
+import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.roo.addon.web.mvc.controller.RooWebScaffold;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.util.UriUtils;
 import org.springframework.web.util.WebUtils;
 import pittheo.projects.template.domain.UserAccount;
+import pittheo.projects.template.domain.UserProfile;
 
 @RooWebScaffold(path = "useraccounts", formBackingObject = UserAccount.class)
 @RequestMapping("/useraccounts")
@@ -41,9 +44,9 @@ public class UserAccountController {
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public String show(@PathVariable("id") Long id, Model uiModel) {
-        uiModel.addAttribute("useraccount", UserAccount.findUserAccount(id));
+        uiModel.addAttribute("user", UserAccount.findUserAccount(id));
         uiModel.addAttribute("itemId", id);
-        return "useraccounts/show";
+        return "userprofiles/show";
     }
 
 	@RequestMapping(method = RequestMethod.GET)
@@ -121,6 +124,49 @@ public class UserAccountController {
 	@RequestMapping(params = "find=ByUsernameLike", method = RequestMethod.GET)
     public String findUserAccountsByUsernameLike(@RequestParam("username") String username, Model uiModel) {
         uiModel.addAttribute("useraccounts", UserAccount.findUserAccountsByUsernameLike(username).getResultList());
+        return "useraccounts/list";
+    }
+
+	@ModelAttribute("userprofiles")
+    public Collection<UserProfile> populateUserProfiles() {
+        return UserProfile.findAllUserProfiles();
+    }
+
+	void addDateTimeFormatPatterns(Model uiModel) {
+        uiModel.addAttribute("userAccount_createdat_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
+        uiModel.addAttribute("userAccount_verifiedat_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
+    }
+
+	@RequestMapping(params = { "find=ByEmailEquals", "form" }, method = RequestMethod.GET)
+    public String findUserAccountsByEmailEqualsForm(Model uiModel) {
+        return "useraccounts/findUserAccountsByEmailEquals";
+    }
+
+	@RequestMapping(params = "find=ByEmailEquals", method = RequestMethod.GET)
+    public String findUserAccountsByEmailEquals(@RequestParam("email") String email, Model uiModel) {
+        uiModel.addAttribute("useraccounts", UserAccount.findUserAccountsByEmailEquals(email).getResultList());
+        return "useraccounts/list";
+    }
+
+	@RequestMapping(params = { "find=ByUsernameEquals", "form" }, method = RequestMethod.GET)
+    public String findUserAccountsByUsernameEqualsForm(Model uiModel) {
+        return "useraccounts/findUserAccountsByUsernameEquals";
+    }
+
+	@RequestMapping(params = "find=ByUsernameEquals", method = RequestMethod.GET)
+    public String findUserAccountsByUsernameEquals(@RequestParam("username") String username, Model uiModel) {
+        uiModel.addAttribute("useraccounts", UserAccount.findUserAccountsByUsernameEquals(username).getResultList());
+        return "useraccounts/list";
+    }
+
+	@RequestMapping(params = { "find=ByVerifiedNot", "form" }, method = RequestMethod.GET)
+    public String findUserAccountsByVerifiedNotForm(Model uiModel) {
+        return "useraccounts/findUserAccountsByVerifiedNot";
+    }
+
+	@RequestMapping(params = "find=ByVerifiedNot", method = RequestMethod.GET)
+    public String findUserAccountsByVerifiedNot(@RequestParam(value = "verified", required = false) Boolean verified, Model uiModel) {
+        uiModel.addAttribute("useraccounts", UserAccount.findUserAccountsByVerifiedNot(verified == null ? new Boolean(false) : verified).getResultList());
         return "useraccounts/list";
     }
 }

@@ -3,16 +3,23 @@
 
 package pittheo.projects.template.domain;
 
+import java.lang.Boolean;
 import java.lang.String;
 import java.security.SecureRandom;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import pittheo.projects.template.domain.UserAccount;
+import pittheo.projects.template.domain.UserProfile;
+import pittheo.projects.template.domain.UserProfileDataOnDemand;
 
 privileged aspect UserAccountDataOnDemand_Roo_DataOnDemand {
     
@@ -22,13 +29,37 @@ privileged aspect UserAccountDataOnDemand_Roo_DataOnDemand {
     
     private List<UserAccount> UserAccountDataOnDemand.data;
     
+    @Autowired
+    private UserProfileDataOnDemand UserAccountDataOnDemand.userProfileDataOnDemand;
+    
     public UserAccount UserAccountDataOnDemand.getNewTransientUserAccount(int index) {
         UserAccount obj = new UserAccount();
+        setCreatedAt(obj, index);
+        setEmail(obj, index);
+        setFromRegistration(obj, index);
         setHash(obj, index);
         setPassword(obj, index);
         setPriviledges(obj, index);
+        setProfile(obj, index);
         setUsername(obj, index);
+        setVerified(obj, index);
+        setVerifiedAt(obj, index);
         return obj;
+    }
+    
+    public void UserAccountDataOnDemand.setCreatedAt(UserAccount obj, int index) {
+        Date createdAt = new GregorianCalendar(Calendar.getInstance().get(Calendar.YEAR), Calendar.getInstance().get(Calendar.MONTH), Calendar.getInstance().get(Calendar.DAY_OF_MONTH), Calendar.getInstance().get(Calendar.HOUR_OF_DAY), Calendar.getInstance().get(Calendar.MINUTE), Calendar.getInstance().get(Calendar.SECOND) + new Double(Math.random() * 1000).intValue()).getTime();
+        obj.setCreatedAt(createdAt);
+    }
+    
+    public void UserAccountDataOnDemand.setEmail(UserAccount obj, int index) {
+        String email = "email_" + index;
+        obj.setEmail(email);
+    }
+    
+    public void UserAccountDataOnDemand.setFromRegistration(UserAccount obj, int index) {
+        Boolean fromRegistration = Boolean.TRUE;
+        obj.setFromRegistration(fromRegistration);
     }
     
     public void UserAccountDataOnDemand.setHash(UserAccount obj, int index) {
@@ -46,9 +77,24 @@ privileged aspect UserAccountDataOnDemand_Roo_DataOnDemand {
         obj.setPriviledges(priviledges);
     }
     
+    public void UserAccountDataOnDemand.setProfile(UserAccount obj, int index) {
+        UserProfile profile = userProfileDataOnDemand.getRandomUserProfile();
+        obj.setProfile(profile);
+    }
+    
     public void UserAccountDataOnDemand.setUsername(UserAccount obj, int index) {
         String username = "username_" + index;
         obj.setUsername(username);
+    }
+    
+    public void UserAccountDataOnDemand.setVerified(UserAccount obj, int index) {
+        Boolean verified = Boolean.TRUE;
+        obj.setVerified(verified);
+    }
+    
+    public void UserAccountDataOnDemand.setVerifiedAt(UserAccount obj, int index) {
+        Date verifiedAt = new GregorianCalendar(Calendar.getInstance().get(Calendar.YEAR), Calendar.getInstance().get(Calendar.MONTH), Calendar.getInstance().get(Calendar.DAY_OF_MONTH), Calendar.getInstance().get(Calendar.HOUR_OF_DAY), Calendar.getInstance().get(Calendar.MINUTE), Calendar.getInstance().get(Calendar.SECOND) + new Double(Math.random() * 1000).intValue()).getTime();
+        obj.setVerifiedAt(verifiedAt);
     }
     
     public UserAccount UserAccountDataOnDemand.getSpecificUserAccount(int index) {

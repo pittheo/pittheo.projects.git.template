@@ -18,8 +18,8 @@
         <div class="container">
             <div class="row">
                 <div class="page-header-title-content span12">
-                    <h1>Oooops! Page Not Found</h1>
-                    <h4>Did you check the URL you are accessing?</h4>
+                    <h1>Access is Denied</h1>
+                    <h4>Do you have access to the URL you are trying to access?</h4>
                 </div><!-- /page-header-title-content -->
             </div>
         </div><!-- /container -->
@@ -31,8 +31,8 @@
             
             <section id="error" class="span12">
                 
-                <span class="error404">404</span>
-                <h4 class="error-content">The page you were looking for doesn't exist.</h4>
+                <span class="error404">403</span>
+                <h4 class="error-content">You don't have access to this page.</h4>
             </section><!-- /error -->
             
         </div><!-- /row -->

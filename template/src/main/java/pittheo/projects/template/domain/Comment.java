@@ -5,7 +5,7 @@ import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.tostring.RooToString;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import pittheo.projects.template.domain.UserProfile;
+import pittheo.projects.template.domain.UserAccount;
 import javax.persistence.ManyToOne;
 import java.util.Date;
 import javax.persistence.Temporal;
@@ -14,43 +14,26 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 @RooJavaBean
 @RooToString
-@RooEntity(finders = { "findUserAccountsByUsernameLike", "findUserAccountsByUsernameEqualsAndPasswordEquals", "findUserAccountsByEmailEquals", "findUserAccountsByVerifiedNot", "findUserAccountsByUsernameEquals" })
-public class UserAccount {
+@RooEntity
+public class Comment {
 
     @NotNull
     @Size(min = 2)
-    private String username;
-
-    @NotNull
-    @Size(min = 2)
-    private String password;
-
-    @NotNull
-    @Size(min = 2)
-    private String hash;
-
-    @NotNull
-    private String priviledges;
+    private String content;
 
     @ManyToOne
-    private UserProfile profile;
-
-    @NotNull
-    @Size(min = 2)
-    private String email;
-
-    private transient String emailRetype;
-
-    private Boolean verified;
-
-    private Boolean fromRegistration;
+    private UserAccount author;
 
     @NotNull
     @Temporal(TemporalType.TIMESTAMP)
     @DateTimeFormat(style = "M-")
     private Date createdAt;
 
+    @NotNull
     @Temporal(TemporalType.TIMESTAMP)
     @DateTimeFormat(style = "M-")
-    private Date verifiedAt;
+    private Date lastModifiedAt;
+
+    @Size(min = 2)
+    private String title;
 }

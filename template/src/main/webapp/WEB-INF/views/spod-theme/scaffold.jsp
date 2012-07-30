@@ -8,13 +8,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<jsp:include page="./spod-theme/head.jsp" />
+	<jsp:include page="./head.jsp" />
 </head>
 <body>
 
-	<jsp:include page="./spod-theme/header.jsp" />
+	<jsp:include page="./header.jsp" />
     
-    <!-- 
     <section class="page-header-title">
         <div class="container">
             <div class="row">
@@ -22,9 +21,9 @@
                     <h1>This is App Template</h1>
                     <span class="teaser-desc">Mirum est notare quam littera gothica, quam nunc putamus parum claram.</span>
                 </div><!-- /page-header-title-content -->
-            <!--</div>-->
-        <!--</div><!-- /container -->
-    <!--</section><!-- /page-header-title -->
+            </div>
+        </div><!-- /container -->
+    </section><!-- /page-header-title -->
     
     
     <div class="container">
@@ -33,8 +32,8 @@
             <div class="page-teaser span12">
                 <h2>
                 Hello! Me name is
-                <span>App Template</span>
-                and I'm an Engine for quickly creating Web Applications
+                <span>Spod</span>
+                and I'm Responsive Twitter Bootstrap Theme
                 </h2>
                 <span class="teaser-desc">Mirum est notare quam littera gothica, quam nunc putamus parum claram.</span>
             </div>
@@ -45,7 +44,7 @@
                     
                     <div class="service span3">                    
                         <div class="circle-image">
-                            <img src="/template/styles/spod-theme/round-1.png" alt="">
+                            <img src="images/round/round-1.png" alt="">
                         </div>
                         <h4>Development</h4>
                         <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram.</p>     
@@ -53,7 +52,7 @@
                     
                     <div class="service span3">
                         <div class="circle-image">
-                            <img src="/template/styles/spod-theme/round-2.png" alt="">
+                            <img src="images/round/round-2.png" alt="">
                         </div>
                         <h4>Ideas</h4>
                         <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram.</p>
@@ -61,7 +60,7 @@
                     
                     <div class="service span3">
                         <div class="circle-image">
-                            <img src="/template/styles/spod-theme/round-3.png" alt="">
+                            <img src="images/round/round-3.png" alt="">
                         </div>
                         <h4>Support</h4>
                         <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram.</p>
@@ -69,7 +68,7 @@
                     
                     <div class="service span3">
                         <div class="circle-image">
-                            <img src="/template/styles/spod-theme/round-4.png" alt="">
+                            <img src="images/round/round-4.png" alt="">
                         </div>
                         <h4>Creativity</h4>
                         <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram.</p>
@@ -148,7 +147,7 @@
     </div><!-- /container -->
 
 
-   	<jsp:include page="./spod-theme/footer.jsp" /> 
+   	<jsp:include page="./footer.jsp" /> 
 
 
 </body>

@@ -13,3 +13,67 @@ finder add --finderName findUserAccountsByUsernameLike
 finder list --class ~.domain.UserAccount
 finder add --finderName findUserAccountsByUsernameEqualsAndPasswordEquals
 controller all --package ~.web
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-07-30 15:23:17
+// [failed] entity --class ~.domain.UserAccount
+field string --fieldName thumbnailUrl
+entity --class ~.domain.UserProfile --testAutomatically
+field string --fieldName firstName --notNull --sizeMin 2
+field string --fieldName surname --sizeMin 2
+// [failed] entity --class ~.domain.UserAccount
+field reference --fieldName profile --type ~.domain.UserProfile
+// [failed] entity --class ~.domain.UserProfile --testAutomatically
+field string --fieldName locationName
+field number --fieldName coordX --type java.lang.Float
+field number --fieldName coordY --type java.lang.Float
+field string --fieldName website
+// [failed] entity --class ~.domain.UserAccount
+field string --fieldName email --notNull --sizeMin 2
+// [failed] entity --class ~.domain.UserProfile --testAutomatically
+field string --fieldName thumbnailPath --notNull 
+// [failed] entity --class ~.domain.UserAccount
+field string --fieldName emailRetype --transient
+field boolean --fieldName verified --notNull false
+field boolean --fieldName fromRegistration --notNull false
+finder add --finderName findUserAccountsByEmailEquals
+finder add --finderName findUserAccountsByVerifiedNot
+finder add --finderName findUserAccountsByUsernameEquals
+field date --fieldName createdAt --type java.util.Date --notNull
+field date --fieldName verifiedAt --type java.util.Date --notNull
+entity --class ~.domain.Comment --testAutomatically 
+field string --fieldName content --notNull --sizeMin 2
+field reference --fieldName author --type ~.domain.UserAccount
+field date --fieldName createdAt --type java.util.Date --notNull
+field date --fieldName lastModifiedAt --type java.util.Date --notNull
+field string --fieldName title --sizeMin 2
+entity --class ~.domain.Message --testAutomatically 
+enum type --class ~.domain.MessageType
+field enum --fieldName type --notNull --type ~.domain.MessageType
+field reference --fieldName sender --type ~.domain.UserAccount --notNull
+// [failed] entity --class ~.domain.Message --testAutomatically 
+field enum --fieldName type --notNull --type ~.domain.MessageType
+field reference --fieldName sender --type ~.domain.UserAccount --notNull
+field reference --fieldName receiver --type ~.domain.UserAccount --notNull
+field boolean --fieldName isRead --notNull false
+field string --fieldName subject
+field string --fieldName content
+field date --fieldName sentAt --notNull --type java.util.Date
+field boolean --fieldName flagged --notNull false
+field boolean --fieldName spam --notNull false
+finder add --finderName findMessagesByType
+finder add --finderName findMessagesBySpam
+field date --fieldName lastViewed --notNull --type java.util.Date
+field string --fieldName folder
+finder add --finderName findMessagesBySender
+finder add --finderName findMessagesByFolderEquals
+entity --class ~.domain.ImageInfo --testAutomatically 
+field string --fieldName originalPath --notNull
+field string --fieldName thumbnailPath --notNull 
+field string --fieldName filename
+field string --fieldName title
+field string --fieldName author
+field date --fieldName createdAt --notNull --type java.util.Date
+field string --fieldName description
+// [failed] controller class --class pittheo.projects.template.domain.Message
+controller class --class pittheo.projects.template.web.MessageController
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-07-30 18:24:16

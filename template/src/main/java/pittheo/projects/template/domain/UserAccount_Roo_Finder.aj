@@ -3,12 +3,29 @@
 
 package pittheo.projects.template.domain;
 
+import java.lang.Boolean;
 import java.lang.String;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 import pittheo.projects.template.domain.UserAccount;
 
 privileged aspect UserAccount_Roo_Finder {
+    
+    public static TypedQuery<UserAccount> UserAccount.findUserAccountsByEmailEquals(String email) {
+        if (email == null || email.length() == 0) throw new IllegalArgumentException("The email argument is required");
+        EntityManager em = UserAccount.entityManager();
+        TypedQuery<UserAccount> q = em.createQuery("SELECT o FROM UserAccount AS o WHERE o.email = :email", UserAccount.class);
+        q.setParameter("email", email);
+        return q;
+    }
+    
+    public static TypedQuery<UserAccount> UserAccount.findUserAccountsByUsernameEquals(String username) {
+        if (username == null || username.length() == 0) throw new IllegalArgumentException("The username argument is required");
+        EntityManager em = UserAccount.entityManager();
+        TypedQuery<UserAccount> q = em.createQuery("SELECT o FROM UserAccount AS o WHERE o.username = :username", UserAccount.class);
+        q.setParameter("username", username);
+        return q;
+    }
     
     public static TypedQuery<UserAccount> UserAccount.findUserAccountsByUsernameEqualsAndPasswordEquals(String username, String password) {
         if (username == null || username.length() == 0) throw new IllegalArgumentException("The username argument is required");
@@ -32,6 +49,14 @@ privileged aspect UserAccount_Roo_Finder {
         EntityManager em = UserAccount.entityManager();
         TypedQuery<UserAccount> q = em.createQuery("SELECT o FROM UserAccount AS o WHERE LOWER(o.username) LIKE LOWER(:username)", UserAccount.class);
         q.setParameter("username", username);
+        return q;
+    }
+    
+    public static TypedQuery<UserAccount> UserAccount.findUserAccountsByVerifiedNot(Boolean verified) {
+        if (verified == null) throw new IllegalArgumentException("The verified argument is required");
+        EntityManager em = UserAccount.entityManager();
+        TypedQuery<UserAccount> q = em.createQuery("SELECT o FROM UserAccount AS o WHERE o.verified IS NOT :verified", UserAccount.class);
+        q.setParameter("verified", verified);
         return q;
     }
     

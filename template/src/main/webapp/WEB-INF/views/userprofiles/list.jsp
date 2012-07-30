@@ -8,11 +8,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<jsp:include page="./spod-theme/head.jsp" />
+	<jsp:include page="../spod-theme/head.jsp" />
 </head>
 <body>
 
-	<jsp:include page="./spod-theme/header.jsp" />
+	<jsp:include page="../spod-theme/header.jsp" />
     
     <div class="container">
         <div class="row">
@@ -24,14 +24,54 @@
                     <div class="span9">
                         <div class="row">
                             <div class="page-sub-title span9">
-                                <h3>Send me a message</h3>
+                                <h3>List of User Accounts</h3>
                             </div>
                         </div>
                         
-                        <input class="span5 contact-input" type="text" placeholder="Name" style="margin-right:10px;" name="name">
-                        <input class="span5 contact-input" type="text" placeholder="Email" name="email">
-                        <textarea class="span9 contact-textarea" rows="2" placeholder="Message" name="message" type="text"></textarea>
-                        <button class="btn btn-success" type="submit">Send message</button>
+                        <c:if test="${not empty useraccounts}">
+                        
+	                        <h2>User Accounts</h2>
+	                        <table>
+							  <thead>
+							    <tr>
+							      <th>User Id</th>
+							      <th>Username</th>
+							      <th>Priviledges</th>
+							      <th>&nbsp;</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <c:forEach var="user" items="${useraccounts}">
+									<tr id="user-row-${user.id}">
+										<td>${user.id}</td>
+										<td>${user.username}</td>
+										<td><c:if test="${user.priviledges == '1'}">
+												Read/Write
+											</c:if>
+											<c:if test="${user.priviledges == '2'}">
+												Read Only
+											</c:if>
+										</td>
+										<td>
+											<a style="margin-right: 7px;" user-id="${user.id}" href="" class="deleteUser" title="Διαγραφή"><i class="icon-remove"></i></a>
+											<a user-id="${user.id}" href="/stelexi/signup?form&editMode=true&returnView=admin&userId=${user.id}" class="editUser" title="Επεξεργασία"><i class="icon-edit"></i></a>
+										</td>
+										<td></td>
+									</tr>
+								</c:forEach>
+							  </tbody>
+							</table>
+                        </c:if>
+                        
+                        <c:if test="${empty useraccounts}">
+	                        <div class="alert alert-info">
+	            				<strong>Heads up!</strong> There are no users.
+	          				</div>
+                        	<h4>Would you like to create one?</h4>
+                        </c:if>
+                        
+                        <a href="/template/useraccounts?form" class="btn btn-large btn-primary">Create New User</a>
+                        <a href="/template/useraccounts?form" class="btn btn-large btn-primary pull-right">Create New User (AJAX)</a>
                     </div><!--/span6 box-->
 
                     <div class="span3">
@@ -73,7 +113,7 @@
     </div><!-- /container -->
 
     
-   	<jsp:include page="./spod-theme/footer.jsp" /> 
+   	<jsp:include page="../spod-theme/footer.jsp" /> 
 
 
 </body></html>
