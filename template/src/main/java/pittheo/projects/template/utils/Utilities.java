@@ -9,7 +9,7 @@ import javax.servlet.http.Cookie;
 public class Utilities {
 
 	public static final int MAX_IMG_WIDTH = 700;
-	public static final int MAX_IMG_HEIGHT = 700;
+	public static final int MAX_IMG_HEIGHT = 701;
 
 	public static String SOURCE_FOLDER = "C:\\Profiles\\All Users\\Documents\\My Pictures\\Sample Pictures\\";
 	public static String USER_PROFILE_DESTINATION_FOLDER = "src\\main\\webapp\\images\\users\\thumb\\";
