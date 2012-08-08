@@ -8,16 +8,6 @@ import javax.servlet.http.Cookie;
 
 public class Utilities {
 
-	public static final int MAX_IMG_WIDTH = 700;
-	public static final int MAX_IMG_HEIGHT = 700;
-
-	public static String SOURCE_FOLDER = "C:\\Profiles\\All Users\\Documents\\My Pictures\\Sample Pictures\\";
-	public static String USER_PROFILE_DESTINATION_FOLDER = "src\\main\\webapp\\images\\users\\thumb\\";
-	public static String BET_DESTINATION_FOLDER = "src\\main\\webapp\\images\\bets\\thumb\\";
-	// public static String DESTINATION_FOLDER =
-	// "C:\\Users\\PETROS\\Desktop\\resizing\\";
-	public static String SUFFIX = "_thumb";
-
 	public static String[] acceptedImageExtensions = { "jpg", "jpeg", "gif" };
 
 	public static String toMD5Hash(String source) {

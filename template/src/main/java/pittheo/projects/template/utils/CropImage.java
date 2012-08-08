@@ -9,41 +9,6 @@ public class CropImage extends JFrame {
   Image image;
   Insets insets;
   
-  public static String[] filesToResize = { "IMG_2889.JPG", "IMG_2936.JPG" };
-
-  public CropImage() {
-    super("Crop Image");
-    String path = "C:\\Users\\PETROS\\Desktop\\resizing\\" + filesToResize[0];
-    ImageIcon icon = new ImageIcon(path);
-    image = icon.getImage();
-    
-    // Calculate the final dimensions.
-    // Choose the smallest between height and width and crop the other dimension.
-    System.out.println("Original width: " + image.getWidth(null));
-    System.out.println("Original height: " + image.getHeight(null));
-    int differenceForSide = 0;
-    int finalWidth = 0;
-    int size = image.getWidth(null);
-    if (image.getHeight(null) < size) {
-    	size = image.getHeight(null);
-    	differenceForSide =  (image.getWidth(null) - image.getHeight(null)) / 2;
-    	 
-    }
-    System.out.println("Final dimensions will be: " + size + " x " + size);
-    System.out.println("1: " + differenceForSide);
-    System.out.println("2: " + 0);
-    System.out.println("3: " + size);
-    System.out.println("4: " + size);
-    
-    image = createImage(new FilteredImageSource(image.getSource(), 
-    		new CropImageFilter(differenceForSide, 
-    							0, 
-    							size, 
-    							size)));
-  }
-  
-  
-  
   public static Image crop (Image image) {
 	    // Calculate the final dimensions.
 	    // Choose the smallest between height and width and crop the other dimension.
